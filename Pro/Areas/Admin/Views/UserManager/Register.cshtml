@@ -1,0 +1,139 @@
+﻿@model Pro.ViewModels.UserManager.UsersViewModel
+@{
+    ViewData["Title"] = "ثبت کاربر";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link rel="stylesheet" type="text/css" href="~/assets/css/forms/switches.css">
+
+<link href="~/plugins/file-upload/file-upload-with-preview.min.css" rel="stylesheet" type="text/css" />
+<div class="card">
+
+
+    <form asp-controller="Auth" asp-action="Register" method="post">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="card-body">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div col-md-12>
+                        <div class="custom-file-container" data-upload-id="myFirstImage">
+                            <label>انتخاب عکس <a href="javascript:void(0)" class="custom-file-container__image-clear" title="پاک کردن عکس">x</a></label>
+                            <label class="custom-file-container__custom-file">
+                                <input type="file" class="custom-file-container__custom-file__custom-file-input" accept="image/*" asp-for="Image">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+                                <span class="custom-file-container__custom-file__custom-file-control"></span>
+                            </label>
+                            <div class="custom-file-container__image-preview"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-9">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label asp-for=" FirstName"></label>
+                            <input asp-for=" FirstName" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" FirstName" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group col-md-6">
+                            <label asp-for=" LastName"></label>
+                            <input asp-for=" LastName" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" LastName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label asp-for=" UserName"></label>
+                            <input type="text" asp-for=" UserName" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" UserName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label asp-for=" Email"></label>
+                            <input asp-for=" Email" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label asp-for=" Password"></label>
+                            <input asp-for=" Password" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label asp-for=" ConfirmPassword"></label>
+                            <input asp-for=" ConfirmPassword" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+
+
+                        <div class="form-group col-md-6">
+                            <label asp-for=" PhoneNumber"></label>
+                            <input asp-for=" PhoneNumber" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" PhoneNumber" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label asp-for="BirthDate"></label>
+                            <input type="date" asp-for=" BirthDate" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" BirthDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-sm-12">
+                            <button data-toggle="collapse" data-target="#role" class="btn btn-primary" type="button">افزودن نقش کاربر</button>
+                            <div id="role" class="collapse ">
+
+                                <div class="row col-sm-12 mt-2">
+                                    @foreach (var item in ViewBag.AllRoles)
+                                    {
+
+                                        @item.Name
+
+                                        <div class="">
+
+                                            <label class="switch s-info  mb-4 mr-lg-4">
+                                                <input type="checkbox" value="@item.Name" name="UserRoles">
+                                                <span class="slider round"></span>
+                                            </label>
+                                        </div>
+
+                                    }
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card-footer clearfix bg-light">
+            <button type="submit" class="btn btn-primary float-right">ثبت</button>
+        </div>
+
+    </form>
+
+
+
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="~/plugins/file-upload/file-upload-with-preview.min.js"></script>
+
+    <script>
+        //First upload
+        var firstUpload = new FileUploadWithPreview('myFirstImage')
+                                            //Second upload
+
+    </script>
+
+}
+
+

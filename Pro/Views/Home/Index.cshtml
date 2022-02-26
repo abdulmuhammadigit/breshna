@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "داشبورد";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<script src="~/assets/chart/highcharts.js"></script>
+<script src="~/assets/chart/data.js"></script>
+<script src="~/assets/chart/drilldown.js"></script>
+
+
+<style>
+
+    .highcharts-root {
+        font-family: Vazir_Medium !important;
+    }
+
+    .highcharts-credits {
+        display: none !important;
+    }
+</style>
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-xl-3 col-lg-6 col-12">
+            <div class="card pull-up">
+                <div class="card-content">
+                    <div class="card-body">
+                        <div class="media d-flex">
+                            <div class="media-body text-left">
+                                <h3 class="info"> @ViewBag.QtyUsers.ToString("N0")</h3>
+                                <h6>  تعداد کاربران </h6>
+                            </div>
+                            <div>
+                                <i class="icon-users info font-large-2 float-right"></i>
+                            </div>
+                        </div>
+                        <div class="progress progress-sm mt-1 mb-0 box-shadow-2">
+                            <div class="progress-bar bg-gradient-x-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-12">
+            <div class="card pull-up">
+                <div class="card-content">
+                    <div class="card-body">
+                        <div class="media d-flex">
+                            <div class="media-body text-left">
+                                <h3 class="warning"> @ViewBag.ListRecord.ToString("N0")</h3>
+                                <h6>مجموع ریکارد ثبت شده امروز</h6>
+                            </div>
+                            <div>
+                                <i class="icon-list warning font-large-2 float-right"></i>
+                            </div>
+                        </div>
+                        <div class="progress progress-sm mt-1 mb-0 box-shadow-2">
+                            <div class="progress-bar bg-gradient-x-warning" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-12">
+            <div class="card pull-up">
+                <div class="card-content">
+                    <div class="card-body">
+                        <div class="media d-flex">
+                            <div class="media-body text-left">
+                                <h3 class="success">@ViewBag.Rent.ToString("N0")</h3>
+                                <h6>مجموع اطلاعات ثبت شده کرایه نشینان امروز</h6>
+                            </div>
+                            <div>
+                                <i class="icon-bar-chart success font-large-2 float-right"></i>
+                            </div>
+                        </div>
+                        <div class="progress progress-sm mt-1 mb-0 box-shadow-2">
+                            <div class="progress-bar bg-gradient-x-success" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-12">
+            <div class="card pull-up">
+                <div class="card-content">
+                    <div class="card-body">
+                        <div class="media d-flex">
+                            <div class="media-body text-left">
+                                <h3 class="danger">@ViewBag.Owner.ToString("N0")</h3>
+                                <h6>مجموع اطلاعات ثبت شده مالکان امروز</h6>
+                            </div>
+                            <div>
+                                <i class="icon-pie-chart danger font-large-2 float-right"></i>
+                            </div>
+                        </div>
+                        <div class="progress progress-sm mt-1 mb-0 box-shadow-2">
+                            <div class="progress-bar bg-gradient-x-danger" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>

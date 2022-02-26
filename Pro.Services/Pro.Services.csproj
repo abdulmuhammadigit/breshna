@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pro.Common\Pro.Common.csproj" />
+    <ProjectReference Include="..\Pro.DataAccess\Pro.DataAccess.csproj" />
+    <ProjectReference Include="..\Pro.Entities\Pro.Entities.csproj" />
+    <ProjectReference Include="..\Pro.ViewModels\Pro.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

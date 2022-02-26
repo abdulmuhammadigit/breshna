@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\ASP.NET CORE\Pro\WebSite</_PublishTargetUrl>
+    <History>True|2021-07-25T08:40:12.5276416Z;True|2021-07-25T09:15:18.4280821+04:30;True|2021-07-25T08:45:23.2167520+04:30;True|2021-07-24T02:15:12.5538391+04:30;True|2021-07-21T18:24:16.2609870+04:30;True|2021-07-20T08:37:48.3928033+04:30;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+</Project>

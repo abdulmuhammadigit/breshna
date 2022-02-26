@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "مدیریت نقش ها";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<link href="~/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+<link type="text/css" href="~/assets/css/argon.css?v=1.0.0" rel="stylesheet">
+<script src="~/js/Ajax.js"></script>
+<!-- Bootstrap Table -->
+<link href="~/CacheFiles/assets/vendor/bootstrap-table/dist/bootstrap-table.min.css" rel="stylesheet" asp-append-version="true" />
+<script src="~/CacheFiles/assets/vendor/bootstrap-table/dist/bootstrap-table.js" asp-append-version="true"></script>
+<script src="~/CacheFiles/assets/vendor/bootstrap-table/dist/extensions/export/tableExport.js" asp-append-version="true"></script>
+<script src="~/CacheFiles/assets/vendor/bootstrap-table/dist/bootstrap-table-locale-all.js" asp-append-version="true"></script>
+<script src="~/CacheFiles/assets/vendor/bootstrap-table/dist/extensions/export/bootstrap-table-export.min.js" asp-append-version="true"></script>
+<div id="modal-placeholder"></div>
+
+
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="card shadow w-100">
+            <div class="card-header font_Vazir_Medium">
+                مدیریت نقش ها
+            </div>
+            <div class="card-body">
+                <form asp-area="Admin" asp-controller="RoleManager">
+                    @await Html.PartialAsync("_RoleTable")
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

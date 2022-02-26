@@ -1,0 +1,214 @@
+﻿@using Pro.Services.Contracts
+@inject ISecurityTrimmingService securityTrimmingService
+
+<div id="toolbar">
+    <security-trimming asp-area="" asp-controller="Rent" asp-action="Create">
+
+        <a class="menu-item btn btn-primary" asp-area="" asp-controller="Rent" asp-action="Create"><i class="la la-plus"></i><span data-i18n=" ">درج مشخصات مستاجر/کرایه نشین </span></a>
+
+        <button type="button" class="btn btn-primary" id="GetTotal">
+            <i class="fa fa-primary"></i> ایجاد فایل
+        </button>
+        <a class="btn-link text-primary" href="~/files/فورم_کرایه_نشین.xlsx" title="دانلود اطلاعات"><i class="fa fa-download"></i></a>
+    </security-trimming>
+
+</div>
+<table id="table"
+       data-toolbar="#toolbar"
+       data-search="true"
+       data-show-refresh="true"
+       data-show-toggle="false"
+       data-show-fullscreen="true"
+       data-show-columns="true"
+       data-detail-view="true"
+       data-show-export="true"
+       data-click-to-select="true"
+       data-detail-formatter="detailFormatter"
+       data-minimum-count-columns="2"
+       data-show-pagination-switch="true"
+       data-pagination="true"
+       data-id-field="id"
+       data-page-list="[10, 25, 50, 100, all]"
+       data-show-footer="true"
+       data-side-pagination="server"
+       data-url="/Rent/GetRents"
+       data-response-handler="responseHandler">
+
+</table>
+
+
+<script>
+        var $table = $('#table')
+        var selections = []
+
+
+  function get_query_params(p) {
+    return {
+        extraParam: 'abc',
+        search: p.title,
+        sort: p.sort,
+        order: p.order,
+        limit: p.limit,
+        offset: p.offset
+    }
+}
+
+
+        function responseHandler(res) {
+            $.each(res.rows, function (i, row) {
+                row.state = $.inArray(row.id, selections) !== -1
+            })
+            return res
+        }
+
+         function detailFormatter(index, row) {
+            var html = []
+            $.each(row, function (key, value) {
+                if (key != "state" && key != "Id" && key!="ردیف")
+                    html.push('<p><b>' + key + ':</b> ' + value + '</p>')
+            })
+            return html.join('')
+        }
+
+    function operateFormatter(value, row, index) {
+        var access = "";
+               if ('@securityTrimmingService.CanUserAccess(User,"","Rent", "DownloadExcel")' == 'True') {
+            access = access + '<a  class="btn-link text-primary"  href=@Url.Action("DownloadExcel", "Rent")?Id=' + row.Id + ' title="دانلود اطلاعات"><i class="fa fa-download"></i></a>';
+        }
+          if ('@securityTrimmingService.CanUserAccess(User,"","Rent","Info")' == 'True') {
+            access = access + '<a  class="btn-link text-info"  href=@Url.Action("Info", "Rent")?Id=' + row.Id + ' title="نمایش اطلاعات"><i class="fa fa-eye"></i></a>';
+        }
+
+        if ('@securityTrimmingService.CanUserAccess(User,"", "Rent", "Edit")' == 'True') {
+            access = access + '<a class="btn-link text-success"  href=@Url.Action("Edit", "Rent")?Id=' + row.Id + ' title="ویرایش"><i class="fa fa-edit"></i></a>';
+        }
+        if ('@securityTrimmingService.CanUserAccess(User,"", "Rent", "Delete")' == 'True') {
+            access = access + '<button type="button" class="btn-link text-danger" data-toggle="ajax-modal" data-url=@Url.Action("Delete", "Rent")/?Id=' + row.Id + ' title="حذف"><i class="fa fa-trash"></i></button>';
+        }
+        return access;
+    }
+
+
+     function checkBoxFormat(value, row) {
+         return '<input type="checkbox" id="btSelectItem" name="btSelectItem" value="' + row.Id + '" />';
+    }
+
+
+        function totalTextFormatter(data) {
+            return 'تعداد'
+        }
+
+        function totalNameFormatter(data) {
+            return data.length
+        }
+
+
+        function initTable() {
+            $table.bootstrapTable('destroy').bootstrapTable({
+                height: 600,
+                locale: 'fa-IR',
+                columns: [
+                    [
+                        {
+                            title: 'جزئیات اطلاعات ',
+                            colspan: 10,
+                            align: 'center'
+                        }
+                    ],
+                    [
+                        {
+                        field: 'state',
+                        checkbox: true,
+                        align: 'center',
+                        valign: 'middle',
+                        formatter: checkBoxFormat
+                        },
+                        {
+                            field: 'نام کاربر',
+                            title: 'نام کاربر',
+
+                            footerFormatter: totalNameFormatter,
+                            align: 'center'
+                        },
+                        {
+                            field: 'نمبر فارم',
+                            title: 'نمبر فارم',
+
+                            footerFormatter: totalNameFormatter,
+                            align: 'center'
+                        },
+                        {
+                        field: 'نام',
+                        title: 'نام',
+                        sortable: true,
+                        footerFormatter: totalNameFormatter,
+                        align: 'center'
+                        },
+                        {
+                        field: 'نام پدر',
+                        title: 'نام پدر',
+                        align: 'center'
+                        },
+                        {
+                        field: 'تخلص',
+                        title: 'تخلص',
+                        align: 'center'
+                        },
+                        {
+                            field: 'ایمیل آدرس',
+                            title: 'ایمیل آدرس',
+                            align: 'center'
+                        },
+                        {
+                            field: 'شماره تماس',
+                            title: 'شماره تماس',
+                            align: 'center'
+                        },
+                        {
+                            field: 'تاریخ ثبت',
+                            title: 'تاریخ ثبت',
+                            align: 'center'
+                        },
+                        {
+                        field: 'operate',
+                        title: 'عملیات',
+                        align: 'center',
+                        events: window.operateEvents,
+                        formatter: operateFormatter
+                        }
+                    ]
+                ]
+            })
+        }
+
+        $(function () {
+            initTable()
+            $('#locale').change(initTable)
+        })
+
+   
+
+   
+
+</script>
+
+<script>
+        $("#GetTotal").click(function () {
+            var chbax = [];
+            $.each($("input[name='btSelectItem']:checked"), function () {
+                chbax.push($(this).val());
+            });
+            $.ajax({
+                url: "../Rent/DownloadExcelAll",
+                type: "GET",
+                data: { data: chbax.toString()},
+                traditional: true,
+                success: function (data) {
+                    //console.log(data);
+                   
+                }
+            });
+
+
+        });
+</script>

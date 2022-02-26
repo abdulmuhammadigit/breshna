@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "مدیریت کاربر";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link type="text/css" href="~/assets/css/argon.css?v=1.0.0" rel="stylesheet">
+<link href="~/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+<script src="~/js/Ajax.js"></script>
+<!-- Bootstrap Table -->
+<link href="~/CacheFiles/assets/vendor/bootstrap-table/dist/bootstrap-table.min.css" rel="stylesheet" asp-append-version="true" />
+<script src="~/CacheFiles/assets/vendor/bootstrap-table/dist/bootstrap-table.js" asp-append-version="true"></script>
+<script src="~/CacheFiles/assets/vendor/bootstrap-table/dist/extensions/export/tableExport.js" asp-append-version="true"></script>
+<script src="~/CacheFiles/assets/vendor/bootstrap-table/dist/bootstrap-table-locale-all.js" asp-append-version="true"></script>
+<script src="~/CacheFiles/assets/vendor/bootstrap-table/dist/extensions/export/bootstrap-table-export.min.js" asp-append-version="true"></script>
+<div id="modal-placeholder"></div>
+
+
+
+@if (ViewBag.Alert != null)
+{
+    <div class="alert alert-success mb-4" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x close" data-dismiss="alert"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+        <strong>!پیام موفقیت</strong> @ViewBag.Alert
+    </div>
+}
+
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="card shadow w-100">
+            <div class="card-header font_Vazir_Medium">
+                مدیریت کاربران
+            </div>
+            <div class="card-body">
+                <form asp-area="Admin" asp-controller="UserManager">
+                    @await Html.PartialAsync("_UserTable")
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

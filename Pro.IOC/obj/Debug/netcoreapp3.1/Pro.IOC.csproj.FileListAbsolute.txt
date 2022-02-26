@@ -1,0 +1,60 @@
+E:\Project\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.csprojAssemblyReference.cache
+E:\Project\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.AssemblyInfoInputs.cache
+E:\Project\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.AssemblyInfo.cs
+E:\Project\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.csproj.CoreCompileInputs.cache
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.IOC.deps.json
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.IOC.dll
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.IOC.pdb
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Common.dll
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.DataAccess.dll
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Entities.dll
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Services.dll
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.ViewModels.dll
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.DataAccess.pdb
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Services.pdb
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Common.pdb
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Entities.pdb
+E:\Project\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.ViewModels.pdb
+E:\Project\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.csproj.CopyComplete
+E:\Project\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.dll
+E:\Project\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.pdb
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.IOC.deps.json
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.IOC.dll
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.IOC.pdb
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Common.dll
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.DataAccess.dll
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Entities.dll
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Services.dll
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.ViewModels.dll
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.DataAccess.pdb
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Services.pdb
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Common.pdb
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Entities.pdb
+E:\brashna\pro\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.ViewModels.pdb
+E:\brashna\pro\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.csprojAssemblyReference.cache
+E:\brashna\pro\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.AssemblyInfoInputs.cache
+E:\brashna\pro\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.AssemblyInfo.cs
+E:\brashna\pro\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.csproj.CoreCompileInputs.cache
+E:\brashna\pro\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.csproj.CopyComplete
+E:\brashna\pro\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.dll
+E:\brashna\pro\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.pdb
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.IOC.deps.json
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.IOC.dll
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.IOC.pdb
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Common.dll
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.DataAccess.dll
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Entities.dll
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Services.dll
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.ViewModels.dll
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.DataAccess.pdb
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Services.pdb
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Common.pdb
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.Entities.pdb
+D:\ASP.NET CORE\Pro\Pro.IOC\bin\Debug\netcoreapp3.1\Pro.ViewModels.pdb
+D:\ASP.NET CORE\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.csprojAssemblyReference.cache
+D:\ASP.NET CORE\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.AssemblyInfoInputs.cache
+D:\ASP.NET CORE\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.AssemblyInfo.cs
+D:\ASP.NET CORE\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.csproj.CoreCompileInputs.cache
+D:\ASP.NET CORE\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.csproj.CopyComplete
+D:\ASP.NET CORE\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.dll
+D:\ASP.NET CORE\Pro\Pro.IOC\obj\Debug\netcoreapp3.1\Pro.IOC.pdb

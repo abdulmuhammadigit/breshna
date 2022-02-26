@@ -1,0 +1,112 @@
+﻿@using Pro.Services.Contracts
+@using Pro.Common
+@inject IApplicationUserManager userManager
+@using Pro.ViewModels.Settings
+@inject IWritableOptions<SiteSettings> writableLocations
+@{
+    var user = await userManager.GetUserAsync(User);
+}
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="rtl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="@writableLocations.Value.SiteInfo.Description">
+    <meta name="keywords" content="سیستم حسابداری ، سیستم گدام، سیستم فروشات ،سیستم خرید فروش">
+    <meta name="author" content="Sadeq Mozaffari 0794954086">
+    <title>@ViewBag.title</title>
+    <link rel="apple-touch-icon" href="/assets/img/@writableLocations.Value.SiteInfo.Favicon">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/@writableLocations.Value.SiteInfo.Favicon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700" rel="stylesheet">
+
+
+
+    <script src="~/assets/libs/jquery-3.1.1.min.js"></script>
+    <link href="~/app-assets/fonts/feather/style.min.css" rel="stylesheet" />
+    <!-- Loading -->
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/vendors-rtl.min.css">
+    <!-- END: Vendor CSS-->
+    <link href="/assets/vendor/fontawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/bootstrap-extended.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/colors.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/components.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/custom-rtl.min.css">
+    <!-- END: Theme CSS-->
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/core/menu/menu-types/vertical-menu-modern.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/core/colors/palette-gradient.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/app-assets/fonts/simple-line-icons/style.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/core/colors/palette-gradient.min.css">
+    <!-- END: Page CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <!-- END: Custom CSS-->
+
+    <link href="~/assets/css/fonts.css" rel="stylesheet" />
+
+    <!-- BEGIN: Page JS-->
+    <style>
+        body .content .content-wrapper {
+            padding: 0rem 1rem 0 !important;
+        }
+
+        * {
+            font-family: "Vazir";
+        }
+    </style>
+</head>
+<body class="vertical-layout vertical-menu-modern vertical-expanded-menu 2-columns fixed-navbar pace-done menu-expanded" data-open="click" data-menu="vertical-menu-modern" data-col="2-columns">
+    <div id="modal-placeholder"></div>
+    <!-- BEGIN: Header-->
+    @await Html.PartialAsync("_Header")
+    <!-- END: Header-->
+    <!-- BEGIN: Main Menu-->
+    @await Html.PartialAsync("_Menu")
+    <!-- END: Main Menu-->
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="content-wrapper">
+            @*<div class="content-header row">
+                </div>*@
+            <div class="content-body">
+                <div class="content-header row mt-2">
+
+                </div>
+                @RenderBody()
+            </div>
+
+
+        </div>
+    </div>
+    <!-- END: Content-->
+    <!-- BEGIN: Customizer-->
+    @await Html.PartialAsync("_PanelSetting")
+    <!-- End: Customizer-->
+    <!-- Buynow Button-->
+    @*<div class="buy-now">
+            <a href="https://1.envato.market/modern_admin" target="_blank" class="btn btn-info btn-glow round px-2">Buy Now</a>
+
+        </div>*@
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light navbar-border navbar-shadow">
+        <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">حقوقو کاپی محفوظ است &copy; @DateTime.Now.Year </span><span class="float-md-right d-none d-lg-block"><i class="ft-heart pink"></i><span id="scroll-top"></span></span></p>
+    </footer>
+
+    <script src="~/app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Theme JS-->
+    <script src="~/app-assets/js/core/app-menu.min.js"></script>
+    <script src="~/app-assets/js/core/app.min.js"></script>
+    <script src="~/app-assets/js/scripts/customizer.min.js"></script>
+    <script src="~/app-assets/js/scripts/footer.min.js"></script>
+</body>
+</html>
+

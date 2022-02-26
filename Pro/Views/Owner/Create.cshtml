@@ -1,0 +1,1546 @@
+﻿@model Pro.ViewModels.Owner.OwnerViewModel
+@{
+    ViewData["Title"] = "درج مشخصات مالک خانه";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success  text-white" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x close" data-dismiss="alert"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+        <strong>!پیام موفقیت</strong> @TempData["Success"]
+    </div>
+}
+@if (TempData["Danger"] != null)
+{
+    <div class="alert alert-danger  text-white" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x close" data-dismiss="alert"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+        <strong>!پیام خطا</strong> @TempData["Danger"]
+    </div>
+}
+<link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/plugins/forms/wizard.min.css">
+<div class="content-body mt-2">م
+    <!-- Form wzard with step validation section start -->
+    <section id="validation">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">فورم معلومات مشتری (صاحب خانه)</h4>
+                        <a class="heading-elements-toggle"><i class="la la-ellipsis-h font-medium-3"></i></a>
+                        <div class="heading-elements">
+                            <ul class="list-inline mb-0">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-content collapse show">
+                        <div class="card-body">
+                            <form asp-action="create" autocomplete="off" method="post" id="sendForm" class="steps-validation wizard-notification">
+
+                                <!-- Step 1 -->
+                                <h6>معلومات شخصی مالک ملکیت</h6>
+                                <fieldset>
+                                    <div class="row">
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="FormNumber">
+                                                    نمبر فارم :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="FormNumber" asp-for="FormNumber">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="date3">نمبر جکشن :</label>
+                                                <span class="danger"></span>
+                                                <input type="text" class="form-control require" id="date3" asp-for="JaktionNumber">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="firstName3">
+                                                    اسم :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="firstName3" asp-for="Name">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="lastName3">
+                                                    تخلص :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="lastName3" asp-for="LastName">
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="emailAddress5">
+                                                    اسم پدر :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="emailAddress5" asp-for="FatherName">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label for="emailAddress7">
+                                                    نمبر تذکره :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="emailAddress7" asp-for="Tazkira">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="date3"> شماره حساب شرکت برشنا :</label>
+                                                <span class="danger"></span>
+                                                <input type="text" class="form-control require" id="date3" asp-for="AccountBrashna">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="phoneNumber3">شماره تماس :</label>
+                                                <span class="danger"></span>
+                                                <input type="tel" class="form-control require" id="phoneNumber3" asp-for="Phone">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="location">
+                                                    حالت مدنی :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="location" asp-for="Status">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="متاهل">متاهل</option>
+                                                    <option value="مجرد">مجرد</option>
+                                                    <option value="دیگر">دیگر</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="age1">سن :</label>
+                                                <span class="danger"></span>
+                                                <input type="number" class="form-control require" id="age1" asp-for="Age">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="location1">
+                                                    جنسیت :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="location1" asp-for="Gender">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="مرد">مرد</option>
+                                                    <option value="زن">زن</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="location3">
+                                                    آیا جایداد به اسم شما ثبت شده است؟ :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="location3" asp-for="OwnerSave">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بله">بله</option>
+                                                    <option value="نخیر">نخیر</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="phoneNumber4">اگر نخیر واضح سازید به نام کی ثبت شده است؟:</label>
+                                                <span class="danger"></span>
+                                                <input type="text" class="form-control require" id="phoneNumber4" asp-for="OwnerName">
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="location31">
+                                                    نوع درآمد:
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="location31" asp-for="TypeIncome">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="تجارت">تجارت</option>
+                                                    <option value="زراعت">زراعت</option>
+                                                    <option value="درآمد جایداد">درآمد جایداد</option>
+                                                    <option value="موسسه غیر دولتی">موسسه غیر دولتی</option>
+                                                    <option value="دیگر">دیگر</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="Inco">مقدار درآمد ماهانه:</label>
+                                                <span class="danger"></span>
+                                                <input type="text" class="form-control require" id="Inco" asp-for="IncomeMonth">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <!-- Step 2 -->
+                                <h6>آدرس ملکیت
+                               </h6>
+                                <fieldset>
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="alert alert-blue-grey">
+                                                <h4 class="text-white">آدرس ملکیت</h4>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="proposalTitle3">
+                                                    ولایت :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="proposalTitle3" asp-for="Province">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="emailAddress6">
+                                                    والسوالی/ ناحیه :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="emailAddress6" asp-for="Village">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="jobTitle3">
+                                                    گذر :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="jobTitle3" asp-for="Ghozar">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="jobTitle33">
+                                                    نمبر خانه :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="jobTitle33" min="0" asp-for="HouseNumber">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="alert alert-blue-grey">
+                                                <h4 class="text-white">
+                                                    اگر صاحب ملک در این محل زندگی نمیکند، جدول ذیل را تکمیل نمائید.
+                                                </h4>
+
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="proposalTitle31">
+                                                    ولایت :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="proposalTitle31" asp-for="ProvinceLive">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="emailAddress16">
+                                                    والسوالی/ ناحیه :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="emailAddress16" asp-for="VillageLive">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="jobTitle13">
+                                                    گذر :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="jobTitle13" asp-for="GhozarLive">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="jobTitle333">
+                                                    کشور :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="jobTitle333" asp-for="CountryLive">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12 alert alert-blue-grey">
+                                            <h4 class="text-white">
+                                                معلومات در مورد ساکنین ملکیت
+                                            </h4>
+
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="LiveWF">
+                                                    آیا شما همراه فامیل در خانه زنده گی می کنید؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="LiveWF" asp-for="LiveWF">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بله">بله</option>
+                                                    <option value="نخیر">نخیر</option>
+
+                                                </select>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label for="LiveWFAge">
+                                                    چند سال ؟ :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="LiveWFAge" asp-for="LiveWFAge">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h5 class="text-danger">
+
+                                                اگر شما در خانه با فامیل خود زندگی میکنید فورم ذیل را خانه پری نمائید.
+                                            </h5>
+                                            <h5 class="text-danger">
+                                                اگر شما از این جایداد برای مقاصد تجارتی استفاده میکنید، لطفاً فورم بخش بعدی (۱۰) را پر نمائید.
+
+                                            </h5>
+                                            <h5 class="text-danger">
+                                                اگر این ملکیت را به کرایه گرفته اید، فورم دیل را خانه پری نکنید، لطف نموده از کرایه نشین بپرسید و فورم کرایه نشین را خانه پری کنید
+
+                                            </h5>
+                                        </div>
+
+                                        @*<div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label for="LiveWFAge1">
+                                                    معلومات درباره ساکنین:
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="LiveWFAge1" asp-for="LiveINFamilyInfo">
+                                            </div>
+                                        </div>*@
+
+                                        <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label for="LiveWFAge1count">
+                                                    تعداد ساکنین :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="LiveWFAge1count" asp-for="CountLiveINFamily">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-12 alert alert-blue-grey">
+                                            <h4 class="text-white">
+                                                لست تمام ساکنین به جز صاحب خانه را بنوسید. اگر درآمدی ندارید، صفر بنوسید.
+
+                                            </h4>
+                                        </div>
+
+
+
+
+                                        <table class="table table-bordered table-hover house table-condensed">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center" width="40px">
+                                                        #
+                                                    </th>
+
+                                                    <th class="text-center">
+                                                        نام
+                                                    </th>
+                                                    <th class="text-center">
+
+                                                        وظیفه
+                                                    </th>
+
+                                                    <th class="text-center">
+                                                        جنسیت
+                                                    </th>
+                                                    <th class="text-center">
+                                                        سن
+                                                    </th>
+                                                    <th class="text-center">
+                                                        درآمد
+                                                    </th>
+
+
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+
+                                                <tr class="entry mb-3">
+                                                    <td>
+
+                                                        <button class="btn btn-success btn-add" type="button">
+                                                            <span>+</span>
+                                                        </button>
+
+                                                    </td>
+
+
+
+                                                    <td>
+                                                        <input type="text" class="Name form-control" name="Residents[0].Name" />
+                                                    </td>
+                                                    <td>
+                                                        <input type="text" class="Job form-control " name="Residents[0].Job" />
+                                                    </td>
+
+                                                    <td>
+
+                                                        <select class="c-select form-control require Gender" name="Residents[0].Gender">
+                                                            <option value="">انتخاب کنید</option>
+                                                            <option value="مرد">مرد</option>
+                                                            <option value="زن">زن</option>
+
+                                                        </select>
+
+                                                    </td>
+                                                    <td>
+                                                        <input type="number" name="Residents[0].Age" class="Age form-control " min="0" step="1" placeholder="0" />
+                                                    </td>
+                                                    <td>
+
+                                                        <input type="number" name="Residents[0].Income" class="Income form-control " min="0" step="1" placeholder="0" />
+                                                    </td>
+
+
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+
+
+
+
+
+                                    </div>
+                                </fieldset>
+
+                                <!-- Step 3 -->
+                                <h6>معلومات درباره صرفیه بیل برق </h6>
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label for="eventType3">
+                                                    برق شما کدام نوع است ؟ :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="eventType3" asp-for="EType">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="یک فاز">یک فاز</option>
+                                                    <option value="دو فاز">دو فاز</option>
+                                                    <option value="سه فاز">سه فاز</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="eventType3">
+                                                    شما چند عدد میتر دارید؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="eventType3" asp-for="EMCount">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="یک">یک </option>
+                                                    <option value="دو">دو </option>
+                                                    <option value="سه">سه </option>
+                                                    <option value="بیشتر">بیشتر </option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+
+
+                                        <div class="col-md-12">
+
+
+
+
+                                            <table class="table table-bordered table-hover tableMetar table-condensed">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="40px">
+                                                            #
+                                                        </th>
+
+                                                        <th class="text-center">
+                                                            آیدی میتر
+                                                        </th>
+                                                        <th class="text-center">
+
+                                                            انتخاب نوعیت میتر دیجینال یا انالوگ
+                                                        </th>
+
+
+
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr class="metar mb-3">
+                                                        <td>
+
+                                                            <button class="btn btn-success btn-addMetar" type="button">
+                                                                <span>+</span>
+                                                            </button>
+
+                                                        </td>
+
+
+
+                                                        <td>
+                                                            <input type="number" class="IDMeter form-control" name="PowerMeters[0].IDMeter" />
+                                                        </td>
+                                                        <td>
+
+
+                                                            <select class="c-select form-control require DigitalOrAnalog" name="PowerMeters[0].DigitalOrAnalog">
+                                                                <option value="">انتخاب کنید</option>
+                                                                <option value="دیجیتال">دیجیتال</option>
+                                                                <option value="انالوگ">انالوگ</option>
+
+                                                            </select>
+                                                        </td>
+
+
+
+                                                    </tr>
+
+
+                                                </tbody>
+                                            </table>
+
+
+
+                                        </div>
+
+                                        <div class="col-md-12 alert alert-blue-grey">
+                                            <h4 class="text-white">
+                                                سایر منابع برق مورد استفاده در ملکیت
+
+                                            </h4>
+
+                                        </div>
+                                        <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label for="eventStatus3">
+                                                    آیا شما جنراتور استفاده می کنید :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="eventStatus3" asp-for="UseGenerator">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بلی، همیشه">بلی، همیشه</option>
+                                                    <option value="بعضی اوقات">بعضی اوقات</option>
+                                                    <option value="به ندرت">به ندرت</option>
+                                                    <option value="نخیر">نخیر</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>جنراتور به کدام ظرفیت :</label>
+
+                                                <select class="c-select form-control require" asp-for="CapacityG">
+                                                    <option value=""> انتخاب کنید</option>
+                                                    <option value="1 کیلووات">1 کیلووات</option>
+                                                    <option value="کمتر از 5 کیلووات"> کمتر از 5 کیلووات</option>
+                                                    <option value="کمتر از 10 کیلووات">کمتر از 10 کیلووات</option>
+                                                    <option value="کمتر از 20 کیلووات">کمتر از 20 کیلووات</option>
+                                                    <option value="کمتر از 50 کیلووات">کمتر از 50 کیلووات</option>
+                                                    <option value="بیشتر از 50 کیلووات">بیشتر از 50 کیلووات</option>
+
+                                                </select>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>
+                                                    حد اوسط مدت استفاده شما از جنراتور در طول روز چند ساعت است؟
+
+                                                </label>
+
+                                                <select class="c-select form-control require" asp-for="HourUG">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="0 ساعت">0 ساعت </option>
+                                                    <option value="کمتر از 1 ساعت"> کمتر از 1 ساعت</option>
+                                                    <option value="کمتر 6 ساعت">کمتر از 6 ساعت</option>
+                                                    <option value="کمتر از 12 ساعت">کمتر از 12 ساعت</option>
+                                                    <option value="بیشستر از 12 ساعت"> بیشتر از 12 ساعت</option>
+                                                    <option value="24 ساعت"> 24 ساعت</option>
+
+                                                </select>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>
+                                                    چه وقت از جنراتور استفاده میکنید؟
+                                                </label>
+
+                                                <select class="c-select form-control require" asp-for="WhenUG">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="همیشه ">همیشه </option>
+                                                    <option value="روزانه ">روزانه </option>
+                                                    <option value="بعضی از روزها ">بعضی از روزها </option>
+                                                    <option value="تنها در نبود برق ">تنها در نبود برق </option>
+                                                    <option value="هیچوقت ">هیچوقت </option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="LiveWFAge1count">
+                                                    هزینه سوخت جنراتور شما در یک ماه تقریباً چند افغانی است؟
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="LiveWFAge1count" asp-for="ExpenseG">
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>
+                                                    آیا شما کدام منبع انرژی دیگری دارید؟
+                                                </label>
+
+                                                <select class="c-select form-control require" asp-for="SourceE">
+                                                    <option value="">انتخاب کنید </option>
+                                                    <option value="بلی ">بلی </option>
+                                                    <option value="نخیر ">نخیر </option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>
+                                                    اگر جواب بله هست مشخص کنید
+                                                </label>
+
+                                                <select class="c-select form-control require" asp-for="SourceEType">
+                                                    <option value="">انتخاب کنید </option>
+                                                    <option value="سولر/شمسی ">سولر/شمسی </option>
+                                                    <option value="بطری ">بطری </option>
+                                                    <option value="بادی ">بادی </option>
+                                                    <option value="دیگر ">دیگر </option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-12 alert alert-blue-grey">
+                                            <h4 class="text-white">
+                                                معلومات تجهیزات برقی ملکیت
+
+
+                                            </h4>
+
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h4 class="text-danger">
+                                                این معلومات ملزم به دقیق بودن نیست، مخصوصاً مدت استهلاک اموال. لطفاً ارقام تخمینی بدهید
+
+                                            </h4>
+                                            <table class="table table-bordered table-hover ElectricalEquipmentHome  table-condensed">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10px">
+                                                            #
+                                                        </th>
+                                                        <th class="text-center">
+                                                            تجهیزات برقی
+                                                        </th>
+
+                                                        <th class="text-center">
+                                                            تعداد
+                                                        </th>
+                                                        <th class="text-center">
+
+                                                            مدت استهلاک
+                                                        </th>
+
+
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr class="Electrical mb-3">
+                                                        <td>
+
+                                                            <button class="btn btn-success btn-ElectricalEquipmentHome" type="button">
+                                                                <span>+</span>
+                                                            </button>
+
+                                                        </td>
+
+
+
+
+
+                                                        <td>
+                                                            <select class="c-select form-control require Name" name="EEquipmentHs[0].Name"  id="location1" >
+                                                                <option value="">انتخاب کنید</option>
+                                                                <option value="گروپ">گروپ</option>
+                                                                <option value="یخچال">یخچال</option>
+                                                                <option value="داش">داش</option>
+                                                                <option value="مایکرو ویو">مایکرو ویو</option>
+                                                                <option value="مخلوط کن / جوسر">مخلوط کن / جوسر</option>
+                                                                <option value="آب گرمی/ چاینک برقی">آب گرمی/ چاینک برقی</option>
+                                                                <option value="ماشین لباس شوی">ماشین لباس شوی</option>
+                                                                <option value="آب گرم کن / بایلر">آب گرم کن / بایلر</option>
+                                                                <option value="ایرکندیشن">ایرکندیشن</option>
+                                                                <option value="پکه">پکه</option>
+                                                                <option value="بخاری برقی">بخاری برقی</option>
+                                                                <option value="اتو لباس">اتو لباس</option>
+                                                                <option value="واتر پمپ">واتر پمپ</option>
+                                                                <option value="جارو برقی">جارو برقی</option>
+                                                                <option value="تلویزیون">تلویزیون</option>
+                                                                <option value="کمپیوتر">کمپیوتر</option>
+                                                                <option value="لب تاپ">لب تاپ</option>
+                                                                <option value="تیلفون"> تیلفون</option>
+                                                               
+
+                                                            </select>
+                                                           
+                                                        </td>
+                                                        <td>
+                                                            <input type="number" name="EEquipmentHs[0].Count" class="Count form-control LineTotal" min="0" step="1"  />
+                                                        </td>
+                                                        <td>
+                                                         
+                                                            <select class="c-select form-control require Number"name="EEquipmentHs[0].AstahlakYear" >
+                                                                <option value="">انتخاب کنید</option>
+                                                                <option value="کمتر از 1 سال">کمتر از 1 سال</option>
+                                                                <option value="کمتر از 3 سال">کمتر از 3 سال</option>
+                                                                <option value="کمتر از 10 سال">کمتر از 10 سال</option>
+                                                                <option value="بیشتر">بیشتر</option>
+                                                              
+
+                                                            </select>
+                                                        </td>
+
+                                                    </tr>
+
+
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+
+
+                                        <div class="col-md-12 alert alert-blue-grey">
+                                            <h4 class="text-white">
+                                                مشخصات مسکن
+
+                                            </h4>
+
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="meetingName3">
+                                                    تعداد اتاق  :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="meetingName3" asp-for="Room">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="Floor">
+                                                    تعداد منزل   :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="Floor" asp-for="Floor">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="WC">
+                                                    تعداد تشناب   :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="WC" asp-for="WC">
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="Kichen">
+                                                    نعداد آشپزخانه :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="Kichen" asp-for="Kichen">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="TypeHome">
+                                                    نوعیت مکلیت
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="TypeHome" asp-for="TypeHome">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="خانه همرای حویلی ">خانه همرای حویلی </option>
+                                                    <option value="خانه بدون حویلی ">خانه بدون حویلی </option>
+                                                    <option value="آپارتمان/ساختمان ">آپارتمان/ساختمان </option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="AreaBuilding">
+                                                    اندازه تقریبی تعمیر به متر مربع:
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="AreaBuilding" asp-for="AreaBuilding">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="Land">
+                                                    اندازه تقریبی زمین به متر مربع:
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="Land" asp-for="Land">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-md-12 alert alert-blue-grey">
+                                            <h4 class="text-white">
+                                                نوعیت استفاده‌ برق
+                                            </h4>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="AirCandition">
+                                                    شما در تابستان چند ساعت در روز از ایرکندیشن استفاده میکنید؟
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="AirCandition" asp-for="AirCandition">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="24 ساعت ">24 ساعت </option>
+                                                    <option value="12 ساعت ">12 ساعت </option>
+                                                    <option value="6 ساعت  ">6 ساعت </option>
+                                                    <option value="کمتر از 6 ساعت">کمتر از 6 ساعت </option>
+                                                    <option value="استفاده نمیکنید ">استفاده نمی کنید  </option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="UseTypeWarming">
+                                                    شما از کدام سیستم گرم کننده استفاده میکنید؟
+
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="multi-select form-control require" id="UseTypeWarming" asp-for="UseTypeWarming" multiple>
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="برقی"> برقی</option>
+                                                    <option value="چوب"> چوب</option>
+                                                    <option value="گاز"> گاز</option>
+                                                    <option value="تیل"> تیل</option>
+                                                    <option value="دیگر"> دیگر</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="HourOnStove">
+                                                    شما در زمستان چند ساعت در روز از بخاری برقی استفاده میکنید؟
+
+
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="HourOnStove" asp-for="HourOnStove">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="24 ساعت ">24 ساعت </option>
+                                                    <option value="12 ساعت ">12 ساعت </option>
+                                                    <option value="6 ساعت  ">6 ساعت </option>
+                                                    <option value="کمتر از 6 ساعت">کمتر از 6 ساعت </option>
+                                                    <option value="استفاده نمیکنید ">استفاده نمی کنید  </option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="TradeHome">
+                                                    آیا از ملکیت برای مقاصد تجاری استفاده میکنید؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="TradeHome" asp-for="TradeHome">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بله"> بله</option>
+                                                    <option value="نخیر"> نخیر</option>
+
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <h4 class="text-danger">
+                                                لطفاً قسمت ذیل را تنها در صورتیکه از این ملکیت برای مقاصد تجاری استفاده میکنید، خانه پری نمائید.
+                                            </h4>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="TradeHome">
+                                                    از ملکیت برای کدام مقاصد تجاری استفاده میکنید؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="TradeHome" asp-for="TypeTrade">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="دوکان"> دوکان</option>
+                                                    <option value="مؤسسه غیر دولتی">
+                                                        مؤسسه غیر دولتی
+                                                    </option>
+                                                    <option value="صنعتی"> صنعتی</option>
+                                                    <option value="دولتی"> دولتی</option>
+                                                    <option value="سایر"> سایر</option>
+
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="Land">
+                                                    اسم نهاد تجارتی
+                                                    :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="text" class="form-control require" id="Land" asp-for="TradeName">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="Land">
+                                                    چند سال
+                                                    :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="Land" asp-for="TradeYear">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="Land">
+                                                    چند نفر  کارمند مصروف کار در این ملکیت هستند؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="Land" asp-for="StaffCount">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-12">
+
+                                            <h4 class="text-danger">
+                                                لطفاً مطمئن شوید که وسایل ذکر شده در این لست، با وسایل ذکر شده در لست قبلی  یکسان نباشند.
+                                            </h4>
+                                        </div>
+
+
+                                        <div class="col-md-12">
+
+                                            <table class="table table-bordered table-hover ElectricalEquipmentCom  table-condensed">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center" width="10px">
+                                                            #
+                                                        </th>
+                                                        <th class="text-center">
+                                                            تجهیزات برقی
+                                                        </th>
+
+                                                        <th class="text-center">
+                                                            تعداد
+                                                        </th>
+                                                        <th class="text-center">
+
+                                                            مدت استهلاک
+                                                        </th>
+                                                        <th class="text-center">
+
+                                                            سایر معلومات
+                                                        </th>
+
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                    <tr class="ElectricalEquipmentCom mb-3">
+                                                        <td>
+
+                                                            <button class="btn btn-success btn-ElectricalEquipmentCom" type="button">
+                                                                <span>+</span>
+                                                            </button>
+
+                                                        </td>
+
+
+
+
+
+                                                        <td>
+
+                                                            <input type="text" name="EEquipmentComs[0].Name" class="Name form-control" />
+                                                          
+                                                        </td>
+                                                        <td>
+                                                            <input type="number" name="EEquipmentComs[0].Count" class="Count form-control LineTotal" min="0" step="1" placeholder="0" />
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" name="EEquipmentComs[0].AstahlakYear" class="Number form-control"  />
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" name="EEquipmentComs[0].Info" class="Info form-control" />
+                                                        </td>
+                                                    </tr>
+
+
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+
+                                    </div>
+                                </fieldset>
+
+                                <!-- Step 4 -->
+                                <h6>پرداخت بیل برق</h6>
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="meetingName3">
+                                                    آیا شما بیل برق خود را در وقت معین دریاقت می کنید؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="meetingName3" asp-for="BillRecive">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بله"> بله</option>
+                                                    <option value="نخیر"> نخیر</option>
+
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="meetingLocation3">
+                                                    اگر نخیر، چند روز تاخیر دارد؟
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="meetingLocation3" asp-for="BillDayDaily">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="participants3">
+                                                    آیا تا حال برای پرداخت بل به صورت قسط وار درخواست نموده اید؟
+                                                </label>
+                                                <select class="c-select form-control require" id="meetingName3" asp-for="GhastVar">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بلی، پرداخته ام"> بلی، پرداخته ام</option>
+                                                    <option value="بلی، می پردازم"> بلی، می پردازم</option>
+                                                    <option value="نخیر"> نخیر</option>
+
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="ExpenseOld">
+                                                    مبلغ بِل قبلی تان چند بود به افغانی؟
+
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="ExpenseOld" asp-for="ExpenseOld">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="PayOnTime">
+                                                    آیا در وقت تعین شده بل خود را پرداخت نموده اید؟
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="meetingName3" asp-for="PayOnTime">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بلی"> بلی</option>
+                                                    <option value="نخیر"> نخیر</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="EAlltime">
+                                                    آیا شما 24 ساعت برق دارید؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="EAlltime" asp-for="EAlltime">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بلی"> بلی</option>
+                                                    <option value="نخیر"> نخیر</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="EHour">
+                                                    اگر نخیر، در طول روز چند ساعت دارید؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="number" class="form-control require" id="EHour" asp-for="EHour">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="WantEAT">
+                                                    اگر نخیر، آیا میخواهید 24 ساعت برق داشته باشید؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="WantEAT" asp-for="WantEAT">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بلی"> بلی</option>
+                                                    <option value="نخیر"> نخیر</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="PayForEAT">
+                                                    آیا شما حاضر هستید پول بیشتر برای داشتن برق 24 ساعته بپردازید و از هزینه گزاف جنراتور جلو گیری کنید؟
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="PayForEAT" asp-for="PayForEAT">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بلی"> بلی</option>
+                                                    <option value="نخیر"> نخیر</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="BSolor">
+                                                    آیا شما میخواهید بخاطر سیستم سولری در خانه تان جهت داشتن برق 24 ساعته و کاهش بل برق، در  برنامه سولر شرکت برشنا اشتراک کنید؟
+
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="BSolor" asp-for="BSolor">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="بلی"> بلی</option>
+                                                    <option value="نخیر"> نخیر</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="SolorAmountAssets">
+                                                    شما چقدر بودجه جهت سرمایه گذاری در برنامه سولری برشنا شرکت دارید؟
+
+
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="SolorAmountAssets" asp-for="SolorAmountAssets">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="کمتر از 10000 افعانی">
+                                                        کمتر از 10,000 افعانی
+                                                    </option>
+                                                    <option value="کمتر از 100000 افعانی">
+                                                        کمتر از 100,000 افعانی
+                                                    </option>
+                                                    <option value="کمتر از 500000 افعانی">
+                                                        کمتر 500,000 افعانی
+                                                    </option>
+                                                    <option value="کمتر از 10000000 افعانی">
+                                                        کمتر 10,000,000 افعانی
+                                                    </option>
+                                                    <option value="اضافه تر از 10000000 افعانی">
+                                                        اضافه تر از 10,000,000 افعانی
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="Language">
+                                                    لسان را  که شما ترجیح میدهد با کارمند ده افغانستان برشنا شرکت در ارتباط باشید، کدام است؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="Language" asp-for="Language"  multiple="multiple">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="دری">دری </option>
+                                                    <option value="پشتو"> پشتو</option>
+                                                    <option value="اوزبیکی">اوزبیکی </option>
+                                                    <option value="ترکمنی">ترکمنی </option>
+                                                    <option value="دیگر">دیگر </option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="Email">
+                                                    لطف نموده ایمیل تان را بدهید:
+
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <input type="email" class="form-control require" id="Email" asp-for="EmailAddress">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="WayContact">
+                                                    شما جهت برقراری ارتباط کدام راه ترجیح میدهید؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="WayContact" asp-for="WayContact">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="مراجعه به دفتر دافغانستان برشنا">مراجعه به دفتر دافغانستان برشنا </option>
+                                                    <option value="شماره تماس"> شماره تماس</option>
+                                                    <option value="ایمیل">ایمیل </option>
+                                                    <option value="واتس آپ">واتس آپ </option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="WayContact">
+                                                    از خدمات ما چقدر احساس رضایت دارید؟
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <select class="c-select form-control require" id="WayContact" asp-for="Reazyat">
+                                                    <option value="">انتخاب کنید</option>
+                                                    <option value="خدمات عالی">خدمات عالی </option>
+                                                    <option value="قابل قبول"> قابل قبول</option>
+                                                    <option value="احساس نارضایتی">احساس نارضایتی </option>
+                                                    <option value="غیر قابل قبول">غیر قابل قبول </option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="Suggestion">
+                                                    نظریات، پیشنهادات خود جهت بهبود خدمات د افغانستان برشنا شرکت با ما شریک بسازید
+                                                    :
+                                                    <span class="danger"></span>
+                                                </label>
+                                                <textarea asp-for="Suggestion" class="form-control" rows="4" id="Suggestion"></textarea>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form wzard with step validation section end -->
+
+</div>
+<!-- BEGIN: Page Vendor JS-->
+<script src="~/app-assets/vendors/js/extensions/jquery.steps.min.js"></script>
+<script src="~/app-assets/vendors/js/pickers/dateTime/moment-with-locales.min.js"></script>
+<script src="~/app-assets/vendors/js/pickers/daterange/daterangepicker.js"></script>
+<script src="~/app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+<!-- END: Page Vendor JS-->
+<script src="~/app-assets/js/scripts/forms/wizard-steps.min.js"></script>
+<!-- BEGIN: Page Vendor JS-->
+<script>
+    $(function () {
+
+        $('a[href$="#finish"]').click(function () {
+            document.forms['sendForm'].submit();
+        });
+
+        var count = 1;
+        $(document).on('click', '.btn-add', function (e) {
+            e.preventDefault();
+
+            var controlForm = $('.house tbody'),
+                currentEntry = $(this).parents('.entry:first');
+
+            newEntry = $(currentEntry.clone()).appendTo(controlForm);
+
+            newEntry.find('input').val('');
+
+            newEntry.find('.Name').attr('name', 'Residents[' + count + '].Name');
+            newEntry.find('.Age').attr('name', 'Residents[' + count + '].Age');
+            newEntry.find('.Gender').attr('name', 'Residents[' + count + '].Gender');
+            newEntry.find('.Income').attr('name', 'Residents[' + count + '].Income');
+            newEntry.find('.Job').attr('name', 'Residents[' + count + '].Job');
+
+
+
+            controlForm.find('.entry:not(:last) .btn-add')
+                .removeClass('btn-add').addClass('btn-remove')
+                .removeClass('btn-success').addClass('btn-danger')
+                .html('-');
+
+
+            count++;
+        }).on('click', '.btn-remove', function (e) {
+
+            $(this).parents('.entry:first').remove();
+            e.preventDefault();
+
+            return false;
+        });
+
+
+
+
+
+
+
+
+        var countMetar = 1;
+        $(document).on('click', '.btn-addMetar', function (e) {
+            e.preventDefault();
+
+            var controlForm = $('.tableMetar tbody'),
+                currentEntry = $(this).parents('.metar:first');
+
+            newEntry = $(currentEntry.clone()).appendTo(controlForm);
+
+
+            newEntry.find('input').val('');
+
+            newEntry.find('.IDMeter').attr('name', 'PowerMeters[' + countMetar + '].IDMeter');
+            newEntry.find('.DigitalOrAnalog').attr('name', 'PowerMeters[' + countMetar + '].DigitalOrAnalog');
+
+
+
+
+            controlForm.find('.metar:not(:last) .btn-addMetar')
+                .removeClass('btn-addMetar').addClass('btn-remove')
+                .removeClass('btn-success').addClass('btn-danger')
+                .html('-');
+
+
+            countMetar++;
+        }).on('click', '.btn-remove', function (e) {
+
+            $(this).parents('.metar:first').remove();
+            e.preventDefault();
+
+            return false;
+        });
+
+
+
+        var Electrical = 1;
+        $(document).on('click', '.btn-ElectricalEquipmentHome', function (e) {
+            e.preventDefault();
+
+            var controlForm = $('.ElectricalEquipmentHome tbody'),
+                currentEntry = $(this).parents('.Electrical:first');
+
+            newEntry = $(currentEntry.clone()).appendTo(controlForm);
+
+            newEntry.find('input').val('');
+
+            newEntry.find('.Name').attr('name', 'EEquipmentHs[' + Electrical + '].Name');
+            newEntry.find('.Count').attr('name', 'EEquipmentHs[' + Electrical + '].Count');
+            newEntry.find('.Number').attr('name', 'EEquipmentHs[' + Electrical + '].AstahlakYear');
+
+
+
+
+
+            controlForm.find('.Electrical:not(:last) .btn-ElectricalEquipmentHome')
+                .removeClass('btn-ElectricalEquipmentHome').addClass('btn-remove')
+                .removeClass('btn-success').addClass('btn-danger')
+                .html('-');
+
+
+            Electrical++;
+        }).on('click', '.btn-remove', function (e) {
+
+            $(this).parents('.Electrical:first').remove();
+            e.preventDefault();
+
+            return false;
+        });
+
+
+
+
+        var ElectricalEquipmentCom = 1;
+        $(document).on('click', '.btn-ElectricalEquipmentCom', function (e) {
+            e.preventDefault();
+
+            var controlForm = $('.ElectricalEquipmentCom tbody'),
+                currentEntry = $(this).parents('.ElectricalEquipmentCom:first');
+
+            newEntry = $(currentEntry.clone()).appendTo(controlForm);
+            newEntry.find('input').val('');
+
+
+            newEntry.find('.Name').attr('name', 'EEquipmentComs[' + ElectricalEquipmentCom + '].Name');
+            newEntry.find('.Count').attr('name', 'EEquipmentComs[' + ElectricalEquipmentCom + '].Count');
+            newEntry.find('.Number').attr('name', 'EEquipmentComs[' + ElectricalEquipmentCom + '].AstahlakYear');
+            newEntry.find('.Info').attr('name', 'EEquipmentComs[' + ElectricalEquipmentCom + '].Info');
+
+
+
+
+            controlForm.find('.ElectricalEquipmentCom:not(:last) .btn-ElectricalEquipmentCom')
+                .removeClass('btn-ElectricalEquipmentCom').addClass('btn-remove')
+                .removeClass('btn-success').addClass('btn-danger')
+                .html('-');
+
+
+            ElectricalEquipmentCom++;
+        }).on('click', '.btn-remove', function (e) {
+
+            $(this).parents('.ElectricalEquipmentCom:first').remove();
+            e.preventDefault();
+
+            return false;
+        });
+    });
+
+
+
+
+
+
+</script>

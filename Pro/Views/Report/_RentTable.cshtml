@@ -1,0 +1,173 @@
+﻿@model IEnumerable<Pro.Entities.Rent>
+@using Pro.Common
+
+<table class="table table-striped table-bordered dataex-html5-export">
+
+
+    <thead>
+        <tr>
+
+            <th width="20px">#</th>
+            <th class="text-center">نمبر فارم </th>
+            <th class="text-center">نمبر جکشن </th>
+            <th class="text-center">نام</th>
+            <th class="text-center">تخلص</th>
+            <th class="text-center">اسم پدر</th>
+            <th class="text-center">نمبر تذکره</th>
+            <th class="text-center">شماره تماس</th>
+            <th class="text-center">حالت مدنی</th>
+            <th class="text-center">سن</th>
+            <th class="text-center">جنسیت</th>
+
+            <th class="text-center">نوع درآمد</th>
+            <th class="text-center">مقدار درآمد ماهانه</th>
+            <th class="text-center"> ولایت  آدس ملکیت</th>
+            <th class="text-center"> والسوالی/ناحیه  آدس ملکیت</th>
+            <th class="text-center"> گذر آدس ملکیت</th>
+            <th class="text-center"> نمبر خانه آدس ملکیت</th>
+            <th class="text-center"> ولایت</th>
+            <th class="text-center"> والسوالی/ناحیه</th>
+            <th class="text-center">گذر </th>
+            <th class="text-center">کشور </th>
+            <th class="text-center">شماره تماس صاحب ملک </th>
+            <th class="text-center"> آیا شما همراه فامیل در خانه زنده گی میکنید</th>
+            <th class="text-center">چند سال  </th>
+            @*<th class="text-center">معلومات درباره ساکنین </th>*@
+            <th class="text-center"> تعداد ساکنین</th>
+            <th class="text-center"> برق شما کدام نوع است</th>
+            <th class="text-center">شما چند عدد میتر دارید </th>
+            <th class="text-center"> آیا شما جنراتور استفاده می کنید</th>
+            <th class="text-center"> جنراتور به کدام ظرفیت </th>
+            <th class="text-center"> حد اوسط مدت استفاده از جنراتور در طول روز چند ساعت است</th>
+            <th class="text-center"> چه وقت از جنراتور استفاده می کنید </th>
+            <th class="text-center">هزینه سوخت جنراتور شما در یک ماه تقریبا چند افغانی است  </th>
+            <th class="text-center">آیا شما کدام منبع انرژی دیگری دارید  </th>
+            <th class="text-center">اگر جواب بله هست مشخص کنید </th>
+            <th class="text-center">تعداد اتاق  </th>
+            <th class="text-center">تعداد منزل </th>
+            <th class="text-center">تعداد تشناب  </th>
+            <th class="text-center">تعداد آشپزخانه </th>
+            <th class="text-center">نوع ملکیت  </th>
+            <th class="text-center">اندازه تقریبی تعمیر به متر مربع  </th>
+            <th class="text-center">اندازه تقریبی زمین به متر مربع  </th>
+            <th class="text-center">نوعیت کرایی یا گروی </th>
+            <th class="text-center">شما در تابستان چند ساعت در روز ایرکندیشن استفاده می کنید </th>
+            <th class="text-center"> شما از کدام سیستم گرم کننده استفاده میکنید </th>
+            <th class="text-center"> شما در زمستان چند ساعت در روز بخاری برقی استفاده می کنید </th>
+            <th class="text-center">  آیا از ملکیت برای مقاصد تجاری استفاده میکنید</th>
+            <th class="text-center"> از ملکیت برای کدام مقاصد تجاری استفاده میکنید </th>
+            <th class="text-center">  اسم نهاد تجارتی</th>
+            <th class="text-center"> چند سال </th>
+            <th class="text-center"> چند نفر کارمند مصروف کار در این ملکیت هستند </th>
+            <th class="text-center">  آیا شما برق خود را در وقت معین دریافت می کنید</th>
+            <th class="text-center">  اگر نخیر، چند روز تاخیر دارد</th>
+            <th class="text-center">  آیا تا حال برای پرداخت بل به صورت قسط وار درخواست نموده اید</th>
+            <th class="text-center"> مبلغ بل برق قبلی تان چند بود به افغانی </th>
+            <th class="text-center">آیا در وقت تعین شده بل خود را پرداخت نموده اید</th>
+            <th class="text-center">آیا شما 24 ساعت برق دارید</th>
+            <th class="text-center">اگر نخیر،در طول روز چند ساعت برق دارید</th>
+            <th class="text-center">اگرنخیر، آیا می خواهید 24 ساعت برق داشته باشید</th>
+            <th class="text-center">آیا شما حاضر هستید پول بیشتر برای داشتن برق 24 ساعته بپردازید و از هزینه گزاف جنراتور جلو گیری کنید</th>
+            <th class="text-center">آیا شما میخواهید بخاطر سیستم سولری در خانه تان جهت داشتن برق 24 ساعته و کاهش بل برق، در برنامه سولر شرکت برشنا اشتراک کنید</th>
+            <th class="text-center">شما چقدر بودجه جهت سرمایه گذاری در برنامه سولری برشنا شرکت دارید</th>
+            <th class="text-center">لسان را که شما ترجیح میدهد با کارمند ده افغانستان برشنا شرکت در ارتباط باشید، کدام است</th>
+            <th class="text-center">لطف نموده ایمیل تان را بدهید</th>
+            <th class="text-center">شما جهت برقراری ارتباط کدام راه ترجیح میدهید</th>
+            <th class="text-center">از خدمات ما چقدر احساس رضایت دارید</th>
+            <th class="text-center">نظریات، پیشنهادات خود جهت بهبود خدمات د افغانستان برشنا شرکت با ما شریک بسازید</th>
+            <th class="text-center">تاریخ ثبت</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @{int i = 1;}
+
+
+        @foreach (var item in Model)
+        {
+        <tr>
+
+
+            <td>@i</td>
+            <td class="text-center">@item.FormNumber</td>
+            <td class="text-center">@item.AccountBrashna</td>
+            <td class="text-center">@item.Name</td>
+            <td class="text-center">@item.LastName</td>
+            <td class="text-center">@item.FatherName</td>
+            <td class="text-center">@item.Tazkira</td>
+            <td class="text-center">@item.Phone</td>
+            <td class="text-center">@item.Status</td>
+            <td class="text-center">@item.Age</td>
+            <td class="text-center">@item.Gender</td>
+            <td class="text-center">@item.TypeIncome</td>
+            <td class="text-center">@item.IncomeMonth</td>
+            <td class="text-center">@item.Province</td>
+            <td class="text-center">@item.Village</td>
+            <td class="text-center">@item.Ghozar</td>
+            <td class="text-center">@item.HouseNumber</td>
+            <td class="text-center">@item.ProvinceLive</td>
+            <td class="text-center">@item.VillageLive</td>
+            <td class="text-center">@item.GhozarLive</td>
+            <td class="text-center">@item.CountryLive</td>
+            <td class="text-center">@item.PhoneLive</td>
+            <td class="text-center">@item.LiveWF</td>
+            <td class="text-center">@item.LiveWFAge</td>
+            @*<td class="text-center">@item.LiveINFamilyInfo</td>*@
+            <td class="text-center">@item.CountLiveINFamily</td>
+            <td class="text-center">@item.EType</td>
+            <td class="text-center">@item.EMCount</td>
+            <td class="text-center">@item.UseGenerator</td>
+            <td class="text-center">@item.CapacityG</td>
+            <td class="text-center">@item.HourUG</td>
+            <td class="text-center">@item.WhenUG</td>
+            <td class="text-center">@item.ExpenseG</td>
+            <td class="text-center">@item.SourceE</td>
+            <td class="text-center">@item.SourceEType</td>
+            <td class="text-center">@item.Room</td>
+            <td class="text-center">@item.Floor</td>
+            <td class="text-center">@item.WC</td>
+            <td class="text-center">@item.Kichen</td>
+            <td class="text-center">@item.TypeHome</td>
+            <td class="text-center">@item.AreaBuilding</td>
+            <td class="text-center">@item.Land</td>
+            <td class="text-center">@item.RentType</td>
+            <td class="text-center">@item.AirCandition</td>
+            <td class="text-center">@item.UseTypeWarming</td>
+            <td class="text-center">@item.HourOnStove</td>
+            <td class="text-center">@item.TradeHome</td>
+            <td class="text-center">@item.TypeTrade</td>
+            <td class="text-center">@item.TradeName</td>
+            <td class="text-center">@item.TradeYear</td>
+            <td class="text-center">@item.StaffCount</td>
+            <td class="text-center">@item.BillRecive</td>
+            <td class="text-center">@item.BillDayDaily</td>
+            <td class="text-center">@item.GhastVar</td>
+            <td class="text-center">@item.ExpenseOld</td>
+            <td class="text-center">@item.PayOnTime</td>
+            <td class="text-center">@item.EAlltime</td>
+            <td class="text-center">@item.EHour</td>
+            <td class="text-center">@item.WantEAT</td>
+            <td class="text-center">@item.PayForEAT</td>
+            <td class="text-center">@item.BSolor</td>
+            <td class="text-center">@item.SolorAmountAssets</td>
+            <td class="text-center">@item.Language</td>
+            <td class="text-center">@item.EmailAddress</td>
+            <td class="text-center">@item.WayContact</td>
+            <td class="text-center">@item.Rezayat</td>
+            <td class="text-center">@item.Suggestion</td>
+            <td class="text-center">
+
+
+                @DateTimeExtensions.ConvertMiladiToShamsi(item.RegisterDateTime, "yyyy/MM/dd")
+
+            </td>
+
+
+        </tr>
+            i++;
+        }
+
+    </tbody>
+</table>
+<script src="~/app-assets/js/scripts/tables/datatables-extensions/datatable-button/datatable-html5.min.js"></script>

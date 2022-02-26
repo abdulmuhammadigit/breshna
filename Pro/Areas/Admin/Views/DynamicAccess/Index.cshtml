@@ -1,0 +1,124 @@
+﻿@model Pro.ViewModels.DynamicAccess.DynamicAccessIndexViewModel
+@using Pro.ViewModels.DynamicAccess
+@{
+    ViewData["Title"] = "مدیریت...";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    .jstree-node {
+        font-size: 14px !important;
+    }
+
+    .jstree-default .jstree-wholerow-clicked {
+        background: #fff !important;
+    }
+</style>
+<link href="~/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+<link type="text/css" href="~/assets/css/argon.css?v=1.0.0" rel="stylesheet">
+<link href="~/lib/jsTree/themes/default/style.min.css" rel="stylesheet" />
+<script src="~/lib/jsTree/jstree.min.js"></script>
+
+
+<div id="modal-placeholder"></div>
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="card shadow w-100">
+            <div class="card-header font_Vazir_Medium">
+                <h4 class="mb-1"> تنظیم سطوح دسترسی پویای کاربر «@Model.UserIncludeUserClaims.FirstName @Model.UserIncludeUserClaims.LastName»</h4>
+            </div>
+            <form method="post"
+                  asp-controller="DynamicAccess"
+                  asp-action="Index">
+                <div asp-validation-summary="ModelOnly"></div>
+                <div class="card-body">
+                    <input type="hidden" asp-for="ActionIds" />
+                    <input name="UserId" value="@Model.UserIncludeUserClaims.Id" type="hidden" />
+                    <div id="tree">
+                        <ul>
+                            @{int i = 0;}
+                            @foreach (var controller in Model.SecuredControllerActions.Where(x => !x.ControllerName.Contains("Api")).OrderBy(x => x.ControllerDisplayName))
+                            {
+                                <li id=@("node_"+i) class="border-bottom-grey-blue">
+                                    @{
+                                        var displayName = controller.ControllerDisplayName;
+                                        if (string.IsNullOrWhiteSpace(displayName))
+                                        {
+                                            displayName = controller.ControllerName;
+                                        }
+                                    }
+                                    @displayName
+                                    <ul class="list-group list-group-flush pr-0">
+                                        @foreach (var action in controller.MvcActions.OrderBy(x => x.ActionDisplayName))
+                                        {
+                                            var isSelected = Model.UserIncludeUserClaims.Claims
+                                                .Any(roleClaim => roleClaim.ClaimType == ConstantPolicies.DynamicPermissionClaimType &&
+                                                                  roleClaim.ClaimValue == action.ActionId);
+                                            var selected = isSelected ? "jstree-clicked" : "";
+                                            var actionDisplayName = action.ActionDisplayName;
+                                            if (string.IsNullOrWhiteSpace(actionDisplayName))
+                                            {
+                                                actionDisplayName = $"{action}::{action.ActionId}";
+                                            }
+
+                                            <li id="@action.ActionId">
+                                                <a href="#" class="@selected"> @actionDisplayName</a>
+                                            </li>
+
+                                        }
+                                    </ul>
+                                </li>
+
+                                i++;
+
+                            }
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-footer clearfix">
+                    <button type="button" id="sendForm" class="btn btn-primary float-right">
+                        اعمال تغییرات
+                        <span aria-hidden="true" class="fas fa-edit"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    jQuery(function ($) {
+        $('#tree').jstree({
+
+            "core": {
+                "themes": {
+                    "icons": false
+                }
+            },
+            "plugins": ["wholerow", "checkbox"]
+        });
+    });
+
+    jQuery(function ($) {
+
+        document.getElementById('sendForm').addEventListener('click', function () {
+
+
+            var checked_ids = [];
+            var selectedElms = $('#tree').jstree("get_selected", true);
+            $.each(selectedElms, function () {
+                if (this.id.indexOf("node") == -1)
+                    checked_ids.push(this.id);
+            });
+            $('#ActionIds').val(checked_ids.join(","));
+            $("form").submit();
+
+
+        }, false);
+
+    });
+
+
+
+
+</script>

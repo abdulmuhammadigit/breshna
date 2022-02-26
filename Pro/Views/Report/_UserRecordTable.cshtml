@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Pro.ViewModels.Report.UserRecordViewModel>
+<div class="card">
+    <table class="table table-bordered table-hover table-condensed">
+        <thead class="bg-light">
+            <tr>
+
+                <th class="">
+                    #
+                </th>
+                <th class="text-center">
+                    اسم
+                </th>
+
+                <th class="text-center">
+                    تعداد ثبت شده صاحبان ملک
+                </th>
+                <th class="text-center">
+                    تعداد ثبت شده مستاجر/کرایه نشین 
+                </th>
+                <th class="text-center">
+                  تعداد مجموع
+                </th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @{int i = 1;}
+            @foreach (var item in Model)
+            {
+
+                <tr>
+
+                    <td>@i</td>
+                    <td class="text-center">@item.UserName</td>
+                    <td class="text-center">@item.qtyOwner.ToString("N0")</td>
+                    <td class="text-center">@item.qtyRent.ToString("N0")</td>
+                    <td class="text-center">@item.TotalQty.ToString("N0")</td>
+         
+
+                </tr>
+                i++;
+            }
+
+        </tbody>
+
+
+    </table>
+</div>

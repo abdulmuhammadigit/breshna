@@ -1,0 +1,41 @@
+﻿@using Pro.Services.Contracts
+@inject ISecurityTrimmingService securityTrimmingService
+@{
+    ViewData["Title"] = "لیست ";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script src="~/js/Ajax.js"></script>
+<!-- Bootstrap Table -->
+
+<div id="modal-placeholder"></div>
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success  text-white" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x close" data-dismiss="alert"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+        <strong>!پیام موفقیت</strong> @TempData["Success"]
+    </div>
+}
+@if (TempData["Danger"] != null)
+{
+    <div class="alert alert-danger  text-white" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x close" data-dismiss="alert"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+        <strong>!پیام خطا</strong> @TempData["Danger"]
+    </div>
+}
+
+<div class="container-fluid">
+    <div class="row mt-2">
+        <div class="card shadow w-100">
+            <div class="card-header font_Vazir_Medium">
+                لیست مشخصات کرایه نشین/مستاجر ثبت شده
+            </div>
+            <div class="card-body">
+                <form>
+                    @await Html.PartialAsync("_RentTable")
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

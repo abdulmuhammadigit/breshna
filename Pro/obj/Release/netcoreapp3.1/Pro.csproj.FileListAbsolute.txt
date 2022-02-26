@@ -1,0 +1,1015 @@
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\appsettings.Development.json
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\appsettings.json
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.exe
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.deps.json
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.runtimeconfig.json
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.runtimeconfig.dev.json
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.CSharp.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\mscorlib.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\netstandard.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.AppContext.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Buffers.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Collections.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Collections.Specialized.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ComponentModel.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Configuration.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Console.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Core.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Data.Common.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Data.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Drawing.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Globalization.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.Compression.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.Pipes.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Linq.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Linq.Expressions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Linq.Parallel.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Linq.Queryable.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Memory.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Http.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.HttpListener.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Mail.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.NameResolution.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Ping.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Primitives.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Requests.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Security.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Sockets.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.WebClient.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.WebProxy.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.WebSockets.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Numerics.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ObjectModel.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Resources.Reader.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Resources.Writer.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Handles.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Loader.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.AccessControl.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Claims.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Permissions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Principal.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.SecureString.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ServiceProcess.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Channels.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Thread.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Timer.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Transactions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Transactions.Local.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ValueTuple.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Web.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Windows.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Windows.Extensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.Linq.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.Serialization.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.XDocument.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.XPath.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\refs\WindowsBase.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Views.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Views.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\AutoMapper.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Humanizer.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\MD.PersianDateTime.Core.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ReflectionIT.Mvc.Paging.Views.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ReflectionIT.Mvc.Paging.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.IO.Pipelines.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.Text.Json.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Common.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.DataAccess.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Entities.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.IOC.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Services.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.ViewModels.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.IOC.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Services.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.ViewModels.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Common.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.DataAccess.pdb
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Entities.pdb
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.csprojAssemblyReference.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.AssemblyInfoInputs.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.AssemblyInfo.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.csproj.CoreCompileInputs.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.MvcApplicationPartsAssemblyInfo.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.MvcApplicationPartsAssemblyInfo.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.RazorAssemblyInfo.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.RazorAssemblyInfo.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\staticwebassets\Pro.StaticWebAssets.Manifest.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\staticwebassets\Pro.StaticWebAssets.xml
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\scopedcss\bundle\Pro.styles.css
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.TagHelpers.input.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.TagHelpers.output.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.RazorCoreGenerate.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\DynamicAccess\Index.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Manage\AccessDenied.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Manage\ChangePassword.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Manage\Profile.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Manage\SignIn.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\RoleManager\Index.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\RoleManager\_DeleteConfirmation.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\RoleManager\_RenderRole.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\RoleManager\_RoleTable.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\Details.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\Edit.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\Index.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\Register.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\ResetPassword.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\SendEmail.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\_DeleteConfirmation.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\_RenderUser.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\_UserTable.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Home\Error.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Home\Error404.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\Create.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\Edit.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\Info.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\List.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\_DeleteConfirmation.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\_OwnerTable.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\Create.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\Edit.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\Info.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\List.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\_DeleteConfirmation.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\_RentTable.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_AdminLogin.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_DashboardLayout.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_DeleteGroup.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Header.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_HeaderMenu.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_HeaderUser.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_LayoutPage.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Menu.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_PanelSetting.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_UserLogin.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.RazorTargetAssemblyInfo.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.RazorTargetAssemblyInfo.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.Views.pdb
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.csproj.CopyComplete
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.dll
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.pdb
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Pro.genruntimeconfig.cache
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\Owner.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\Rent.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\UserRecord.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\_OwnerTable.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\_RentTable.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\_UserRecordTable.cshtml.g.cs
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ClosedXML.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\DocumentFormat.OpenXml.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\ExcelNumberFormat.dll
+E:\brashna\pro\Pro\Pro\bin\Release\netcoreapp3.1\System.IO.Packaging.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.deps.json
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.runtimeconfig.json
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.runtimeconfig.dev.json
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.CSharp.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\mscorlib.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\netstandard.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.AppContext.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Buffers.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Collections.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Collections.Specialized.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ComponentModel.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Configuration.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Console.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Core.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Data.Common.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Data.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Drawing.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Globalization.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.Compression.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.Pipes.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Linq.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Linq.Expressions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Linq.Parallel.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Linq.Queryable.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Memory.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Http.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.HttpListener.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Mail.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.NameResolution.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Ping.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Primitives.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Requests.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Security.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.Sockets.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.WebClient.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.WebProxy.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Net.WebSockets.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Numerics.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ObjectModel.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Resources.Reader.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Resources.Writer.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Handles.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Loader.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.AccessControl.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Claims.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Permissions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Principal.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Security.SecureString.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ServiceProcess.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Channels.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Thread.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Threading.Timer.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Transactions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Transactions.Local.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.ValueTuple.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Web.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Windows.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Windows.Extensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.Linq.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.Serialization.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.XDocument.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.XPath.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\refs\WindowsBase.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Views.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Views.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\AutoMapper.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ClosedXML.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\DocumentFormat.OpenXml.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ExcelNumberFormat.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Humanizer.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\MD.PersianDateTime.Core.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ReflectionIT.Mvc.Paging.Views.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ReflectionIT.Mvc.Paging.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.IO.Packaging.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.IO.Pipelines.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\System.Text.Json.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Common.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.DataAccess.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Entities.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.IOC.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Services.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.ViewModels.dll
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.IOC.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Services.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.ViewModels.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Common.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.DataAccess.pdb
+D:\ASP.NET CORE\Pro\Pro\bin\Release\netcoreapp3.1\Pro.Entities.pdb
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.csprojAssemblyReference.cache
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.AssemblyInfoInputs.cache
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.AssemblyInfo.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.csproj.CoreCompileInputs.cache
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.MvcApplicationPartsAssemblyInfo.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.RazorAssemblyInfo.cache
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.RazorAssemblyInfo.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\staticwebassets\Pro.StaticWebAssets.Manifest.cache
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\staticwebassets\Pro.StaticWebAssets.xml
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\scopedcss\bundle\Pro.styles.css
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.TagHelpers.input.cache
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.TagHelpers.output.cache
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.RazorCoreGenerate.cache
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\DynamicAccess\Index.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Manage\AccessDenied.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Manage\ChangePassword.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Manage\Profile.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\Manage\SignIn.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\RoleManager\Index.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\RoleManager\_DeleteConfirmation.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\RoleManager\_RenderRole.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\RoleManager\_RoleTable.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\Details.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\Edit.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\Index.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\Register.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\ResetPassword.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\SendEmail.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\_DeleteConfirmation.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\_RenderUser.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\UserManager\_UserTable.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Home\Error.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Home\Error404.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\Create.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\Edit.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\Info.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\List.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\_DeleteConfirmation.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Owner\_OwnerTable.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\Create.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\Edit.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\Info.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\List.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\_DeleteConfirmation.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\_DownloadConfirmation.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Rent\_RentTable.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\Owner.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\Rent.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\UserRecord.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\_OwnerTable.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\_RentTable.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Report\_UserRecordTable.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_AdminLogin.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_DashboardLayout.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_DeleteGroup.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Header.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_HeaderMenu.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_HeaderUser.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_LayoutPage.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Menu.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_PanelSetting.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_PrintGroup.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_UserLogin.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.RazorTargetAssemblyInfo.cache
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.RazorTargetAssemblyInfo.cs
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.Views.pdb
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.csproj.CopyComplete
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.dll
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.pdb
+D:\ASP.NET CORE\Pro\Pro\obj\Release\netcoreapp3.1\Pro.genruntimeconfig.cache

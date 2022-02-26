@@ -1,0 +1,166 @@
+﻿@model Pro.ViewModels.UserManager.UsersViewModel
+@using Pro.Entities.identity
+@{
+    ViewData["Title"] = "ویرایش کاربر";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<link rel="stylesheet" type="text/css" href="~/assets/css/forms/switches.css">
+
+<link href="~/plugins/file-upload/file-upload-with-preview.min.css" rel="stylesheet" type="text/css" />
+@if (ViewBag.Alert != null)
+{
+    <div class="alert alert-success mb-4" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x close" data-dismiss="alert"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+        <strong>!پیام موفقیت</strong> @ViewBag.Alert
+    </div>
+}
+<div class="card">
+    <div class="card-header bg-light"></div>
+
+    <form asp-action="Edit" method="post">
+        <div class="card-body">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div col-md-12>
+                        <div class="custom-file-container" data-upload-id="myFirstImage">
+                            <label>انتخاب عکس <a href="javascript:void(0)" class="custom-file-container__image-clear" title="پاک کردن عکس">x</a></label>
+                            <label class="custom-file-container__custom-file">
+                                <input type="file" class="custom-file-container__custom-file__custom-file-input" accept="image/*" asp-for="Image">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="10485760" />
+                                <span class="custom-file-container__custom-file__custom-file-control"></span>
+                            </label>
+                            <div class="custom-file-container__image-preview"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-9">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="row">
+
+                        <div class="form-group col-md-6">
+                            <label asp-for=" FirstName"></label>
+                            <input asp-for=" FirstName" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" FirstName" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group col-md-6">
+                            <label asp-for=" LastName"></label>
+                            <input asp-for=" LastName" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" LastName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label asp-for=" UserName"></label>
+                            <input type="text" asp-for=" UserName" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" UserName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label asp-for=" Email"></label>
+                            <input asp-for=" Email" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" Email" class="text-danger"></span>
+                        </div>
+
+
+
+
+                        <div class="form-group col-md-6">
+                            <label asp-for=" PhoneNumber"></label>
+                            <input asp-for=" PhoneNumber" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" PhoneNumber" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label asp-for=" BirthDate"></label>
+                            <input type="date" asp-for=" BirthDate" class="form-control" autocomplete="off" />
+                            <span asp-validation-for=" BirthDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group col-md-12">
+                            <button data-toggle="collapse" data-target="#role" class="btn btn-primary" type="button">افزودن نقش کاربر</button>
+                            <div id="role" class="collapse ">
+
+                                <div class="row mt-2">
+                                    @foreach (var item in ViewBag.AllRoles as List<Role>)
+                                    {
+                                        if (Model.Roles != null)
+                                        {
+                                            if (Model.Roles.Select(r => r.RoleId).Contains(item.Id))
+                                            {
+                                                @item.Name
+
+                                                <div class="">
+
+                                                    <label class="switch s-info  mb-4 mr-lg-4">
+                                                        <input type="checkbox" value="@item.Name" name="UserRoles" checked>
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                @item.Name
+
+                                                <div class="">
+
+                                                    <label class="switch s-info  mb-4 mr-lg-4">
+                                                        <input type="checkbox" value="@item.Name" name="UserRoles">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            @item.Name
+
+                                            <div class="">
+
+                                                <label class="switch s-info  mb-4 mr-lg-4">
+                                                    <input type="checkbox" value="@item.Name" name="UserRoles">
+                                                    <span class="slider round"></span>
+                                                </label>
+                                            </div>
+                                        }
+
+
+                                    }
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card-footer clearfix bg-light">
+            <button type="submit" class="btn btn-primary float-right">ثبت تغییرات </button>
+        </div>
+
+    </form>
+
+
+
+</div>
+
+<script src="~/plugins/file-upload/file-upload-with-preview.min.js"></script>
+
+<script>
+    //First upload
+    var firstUpload = new FileUploadWithPreview('myFirstImage');
+                                                //Second upload
+
+</script>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+

@@ -1,0 +1,36 @@
+E:\Project\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.deps.json
+E:\Project\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.runtimeconfig.json
+E:\Project\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.runtimeconfig.dev.json
+E:\Project\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.dll
+E:\Project\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.pdb
+E:\Project\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.AssemblyInfoInputs.cache
+E:\Project\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.AssemblyInfo.cs
+E:\Project\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.csproj.CoreCompileInputs.cache
+E:\Project\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.dll
+E:\Project\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.pdb
+E:\Project\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.genruntimeconfig.cache
+E:\Project\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.csprojAssemblyReference.cache
+E:\brashna\pro\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.deps.json
+E:\brashna\pro\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.runtimeconfig.json
+E:\brashna\pro\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.runtimeconfig.dev.json
+E:\brashna\pro\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.dll
+E:\brashna\pro\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.pdb
+E:\brashna\pro\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.AssemblyInfoInputs.cache
+E:\brashna\pro\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.AssemblyInfo.cs
+E:\brashna\pro\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.csproj.CoreCompileInputs.cache
+E:\brashna\pro\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.dll
+E:\brashna\pro\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.pdb
+E:\brashna\pro\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.genruntimeconfig.cache
+E:\brashna\pro\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.csprojAssemblyReference.cache
+D:\ASP.NET CORE\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.deps.json
+D:\ASP.NET CORE\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.runtimeconfig.json
+D:\ASP.NET CORE\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.runtimeconfig.dev.json
+D:\ASP.NET CORE\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.dll
+D:\ASP.NET CORE\Pro\Pro.Entities\bin\Debug\netcoreapp3.1\Pro.Entities.pdb
+D:\ASP.NET CORE\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.csprojAssemblyReference.cache
+D:\ASP.NET CORE\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.AssemblyInfoInputs.cache
+D:\ASP.NET CORE\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.AssemblyInfo.cs
+D:\ASP.NET CORE\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.csproj.CoreCompileInputs.cache
+D:\ASP.NET CORE\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.dll
+D:\ASP.NET CORE\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.pdb
+D:\ASP.NET CORE\Pro\Pro.Entities\obj\Debug\netcoreapp3.1\Pro.Entities.genruntimeconfig.cache

@@ -1,0 +1,18 @@
+E:\brashna\pro\Pro\Pro.Common\bin\Release\netcoreapp3.1\Pro.Common.deps.json
+E:\brashna\pro\Pro\Pro.Common\bin\Release\netcoreapp3.1\Pro.Common.dll
+E:\brashna\pro\Pro\Pro.Common\bin\Release\netcoreapp3.1\Pro.Common.pdb
+E:\brashna\pro\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.csprojAssemblyReference.cache
+E:\brashna\pro\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.AssemblyInfoInputs.cache
+E:\brashna\pro\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.AssemblyInfo.cs
+E:\brashna\pro\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.csproj.CoreCompileInputs.cache
+E:\brashna\pro\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.dll
+E:\brashna\pro\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.pdb
+D:\ASP.NET CORE\Pro\Pro.Common\bin\Release\netcoreapp3.1\Pro.Common.deps.json
+D:\ASP.NET CORE\Pro\Pro.Common\bin\Release\netcoreapp3.1\Pro.Common.dll
+D:\ASP.NET CORE\Pro\Pro.Common\bin\Release\netcoreapp3.1\Pro.Common.pdb
+D:\ASP.NET CORE\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.csprojAssemblyReference.cache
+D:\ASP.NET CORE\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.AssemblyInfoInputs.cache
+D:\ASP.NET CORE\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.AssemblyInfo.cs
+D:\ASP.NET CORE\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.csproj.CoreCompileInputs.cache
+D:\ASP.NET CORE\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.dll
+D:\ASP.NET CORE\Pro\Pro.Common\obj\Release\netcoreapp3.1\Pro.Common.pdb

@@ -1,0 +1,155 @@
+﻿@model Pro.ViewModels.Manage.SignInViewModel
+@using Microsoft.Extensions.Configuration
+@using Pro.Services.Contracts
+@inject IConfiguration Configuration
+@using Pro.ViewModels.Settings
+@inject IWritableOptions<SiteSettings> writableLocations
+
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="rtl">
+<!-- BEGIN: Head-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="@writableLocations.Value.SiteInfo.Description">
+    <meta name="keywords" content="@writableLocations.Value.SiteInfo.Description">
+    <meta name="author" content="Sadeq Mozaffari 0794954086">
+    <title>ورود به پنل</title>
+    <link rel="apple-touch-icon" href="/assets/img/@writableLocations.Value.SiteInfo.Favicon">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/@writableLocations.Value.SiteInfo.Favicon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/vendors-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/forms/icheck/icheck.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/forms/icheck/custom.css">
+    <!-- END: Vendor CSS-->
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/bootstrap-extended.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/colors.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/components.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/custom-rtl.min.css">
+    <!-- END: Theme CSS-->
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/core/menu/menu-types/vertical-menu-modern.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/core/colors/palette-gradient.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/pages/login-register.min.css">
+    <!-- END: Page CSS-->
+    <link href="~/app-assets/fonts/feather/style.min.css" rel="stylesheet" />
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style-rtl.css">
+    <link href="~/assets/css/fonts.css" rel="stylesheet" />
+    <!-- END: Custom CSS-->
+    <script src='https://www.google.com/recaptcha/api.js?hl=fa'></script>
+
+</head>
+<!-- END: Head-->
+<!-- BEGIN: Body-->
+<body class="vertical-layout vertical-menu-modern vertical-collapsed-menu 1-column  bg-cyan bg-lighten-2 menu-collapsed fixed-navbar" data-open="click" data-menu="vertical-menu-modern" data-col="1-column">
+
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="content-wrapper">
+            <div class="content-header row">
+            </div>
+            <div class="content-body">
+                <section class="row navbar-flexbox-container">
+                    <div class="col-12 d-flex align-items-center justify-content-center">
+                        <div class="col-lg-4 col-md-8 col-10 box-shadow-2 p-0">
+                            <div class="card border-grey border-lighten-3 m-0">
+                                <div class="card-header border-0">
+                                    @*<div class="card-title text-center">
+                                        <img src="/assets/img/@writableLocations.Value.SiteInfo.Favicon" alt="branding logo">
+                                    </div>*@
+                                    <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2">
+                                        <span>ورود به پنل</span>
+                                    </h6>
+                                </div>
+                                <div class="card-content">
+                                    <div class="card-body">
+                                        <form asp-action="SignIn" class="form-horizontal" novalidate>
+
+                                            @if (ViewData.ModelState.IsValid.ToString() == "False")
+                                            {
+                                                <div asp-validation-summary="All" class="mb-2 alert alert-danger">
+                                                </div>
+                                            }
+                                            <fieldset class="form-group position-relative has-icon-left">
+                                                <input type="text" class="form-control input-lg" id="user-name" placeholder="نام کاربری" asp-for="UserName" tabindex="1"
+                                                       required data-validation-required-message=".نام کاربری را وارد کنید">
+                                                <div class="form-control-position">
+                                                    <i class="la la-user"></i>
+                                                </div>
+                                                <div class="help-block font-small-3"></div>
+                                            </fieldset>
+                                            <fieldset class="form-group position-relative has-icon-left">
+                                                <input type="password" class="form-control input-lg" id="password" asp-for="Password" placeholder="کلمه عبور"
+                                                       tabindex="2" required data-validation-required-message="کلمه عبور درست را وارد کنید.">
+                                                <div class="form-control-position">
+                                                    <i class="la la-key"></i>
+                                                </div>
+                                                <div class="help-block font-small-3"></div>
+                                            </fieldset>
+                     
+                                                <div class="form-group row">
+                                                    <div class="col-md-6 col-12 text-center text-md-left">
+                                                        <fieldset>
+                                                            <input type="checkbox" id="remember-me" class="chk-remember" asp-for="RememberMe">
+                                                            <label for="remember-me">مرا بخاطر بسپار</label>
+                                                        </fieldset>
+                                                    </div>
+                                                    <div class="col-md-6 col-12 text-center text-md-right">
+                                                      
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-danger btn-block btn-lg"><i class="ft-unlock"></i> ورود</button>
+</form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+    <!-- Buynow Button-->
+    @*<div class="buy-now">
+        <a href="https://www.facebook.com/EngSadeqMozaffari/" target="_blank"  class="btn btn-info btn-glow round px-2">سفارش بدهید حالا</a>
+
+    </div>*@
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Footer-->
+    @*<footer class="footer footer-static footer-light navbar-border navbar-shadow">
+        <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">حقوقو کاپی محفوظ است &copy; 2021 <a class="text-bold-800 grey darken-2" a asp-area="" asp-controller="Home" asp-action="Privacy" asp-target="_blank">حریم خصوصی</a></span><span class="float-md-right d-none d-lg-block">0794954086 صادق مظفری<i class="ft-heart pink"></i><span id="scroll-top"></span></span></p>
+    </footer>*@
+    <!-- END: Footer-->
+    <!-- BEGIN: Vendor JS-->
+    <script src="~/app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="~/app-assets/vendors/js/forms/validation/jqBootstrapValidation.js"></script>
+    <script src="~/app-assets/vendors/js/forms/icheck/icheck.min.js"></script>
+    <!-- END: Page Vendor JS-->
+    <!-- BEGIN: Theme JS-->
+    <script src="~/app-assets/js/core/app-menu.min.js"></script>
+    <script src="~/app-assets/js/core/app.min.js"></script>
+    @*  <script src="~/app-assets/js/scripts/customizer.min.js"></script>*@
+    <script src="~/app-assets/js/scripts/footer.min.js"></script>
+    <!-- END: Theme JS-->
+    <!-- BEGIN: Page JS-->
+    <script src="~/app-assets/js/scripts/forms/form-login-register.min.js"></script>
+    <!-- END: Page JS-->
+
+</body>
+<!-- END: Body-->
+</html>

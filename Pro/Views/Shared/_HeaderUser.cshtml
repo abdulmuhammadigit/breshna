@@ -1,0 +1,55 @@
+﻿@using Pro.Services.Contracts
+@using Pro.Common
+@using Pro.DataAccess.Contracts
+@inject IApplicationUserManager userManager
+@{
+    var user = await userManager.GetUserAsync(User);
+}
+
+
+<ul class="nav navbar-nav float-right">
+  
+    <li class="dropdown dropdown-user nav-item">
+        <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
+            <span class="mr-1 user-name text-bold-700">@user.FirstName @user.LastName</span>
+            <span class="avatar avatar-online">
+
+                @if (user.Image.HasValue())
+                {
+                    <img alt="Image placeholder" src="~/avatars/@user.Image">
+                    <i></i>
+                }
+
+                else
+                {
+                    <img alt="Image placeholder" src="~/assets/img/UserPic.png">
+                    <i></i>
+                }
+
+            </span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" asp-area="Admin" asp-action="Profile" asp-controller="Manage" asp-route-userId="@user.Id"><i class="ft-user"></i> ویرایش نمایه</a>
+            <a class="dropdown-item" asp-area="Admin" asp-action="ChangePassword" asp-controller="Manage"><i class="ft-lock"></i> تغییر کلمه عبور </a>
+
+
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                
+
+                <form asp-action="SignOut" asp-controller="Manage" asp-area="Admin">
+                    <div class="dropdown-divider"></div>
+                    <button type="submit" class="dropdown-item">
+                        <i class="ft-power"></i>خروج
+                    </button>
+
+                </form>
+
+            }
+        </div>
+    </li>
+</ul>
+
+
+

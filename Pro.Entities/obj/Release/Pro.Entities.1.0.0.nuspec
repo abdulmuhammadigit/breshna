@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Pro.Entities</id>
+    <version>1.0.0</version>
+    <authors>Pro.Entities</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.AspNetCore.Mvc.Core" version="2.2.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Identity.Stores" version="3.1.14" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\brashna\pro\Pro\Pro.Entities\bin\Release\netcoreapp3.1\Pro.Entities.runtimeconfig.json" target="lib\netcoreapp3.1\Pro.Entities.runtimeconfig.json" />
+    <file src="E:\brashna\pro\Pro\Pro.Entities\bin\Release\netcoreapp3.1\Pro.Entities.dll" target="lib\netcoreapp3.1\Pro.Entities.dll" />
+  </files>
+</package>

@@ -1,0 +1,160 @@
+﻿@model IEnumerable<Pro.ViewModels.Report.UserRecordViewModel>
+
+@{
+    ViewData["Title"] = "راپور ریکارد کاربران ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .table.table-sm td, .table.table-sm th {
+        padding: 0.5rem 0.5em;
+    }
+
+    .popover {
+        right: unset;
+        left: unset;
+    }
+</style>
+<div class="card">
+    <div class="col-sm-12">
+
+
+
+        <a class="btn btn-info btn-block" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            راپور تعداد ریکارد کاربران
+        </a>
+
+
+
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                <form asp-action="UserRecord" autocomplete="off" id="search">
+                    <div class="col-sm-12 row center-block">
+
+
+                            <div class="form-group col-sm-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">از تاریخ </span>
+                                </div>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text  cursor-pointer la la-calendar-times-o" id="date5"></span>
+                                    </div>
+                                    <input type="text" id="inputDate5" class="form-control" placeholder="تاریخ را انتخاب کنید" aria-label="date5"
+                                           aria-describedby="date5" required="" name="Date1Farsi">
+                                </div>
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">الی تاریخ </span>
+                                </div>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text  cursor-pointer la la-calendar-times-o date5" id="date6"></span>
+                                    </div>
+                                    <input type="text" id="inputDate6" class="form-control inputDate5" placeholder="تاریخ را انتخاب کنید" aria-label="date5"
+                                           aria-describedby="date5" required="" name="Date2Farsi">
+                                </div>
+                            </div>
+                        
+
+
+                        <div class="col-sm-4">
+                            <div class="form-group col-sm-12 row" style="margin-top: 30px;">
+                                <input type="submit" class="btn btn-info btn-block col-sm-9" value="جستجو">
+                                <button class="btn btn btn-info  col-sm-2 ml-1 btn-print">
+                                    <i class="la la-print">
+                                    </i>
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="col-sm-12" id="tableContent">
+
+    </div>
+</div>
+<script src="~/lib/Parsley.js-2.9.2/dist/parsley.min.js"></script>
+<script src="~/lib/Parsley.js-2.9.2/dist/i18n/fa.js"></script>
+<script>
+    jQuery(function ($) {
+
+        $('#search').parsley().on('field:validated', function () {
+            var ok = $('.parsley-error').length === 0;
+            $('.bs-callout-info').toggleClass('hidden', !ok);
+            $('.bs-callout-warning').toggleClass('hidden', ok);
+        })
+            .on('form:submit', function () {
+                return true; // Don't submit form for this demo
+            });
+
+        $('#search').submit(function (e) {
+            e.preventDefault();
+
+            var form = $(this);
+            var url = form.attr('action');
+
+            var dataToSend = new FormData(form.get(0));
+            $.ajax({
+                url: url, type: "post", data: dataToSend, processData: false, contentType: false, error: function () {
+
+                    ShowSweetErrorAlert();
+                },
+                beforeSend: function () { ShowLoading(); },
+                complete: function () { $("body").preloader('remove'); },
+            }).done(function (result) {
+
+
+                $("#tableContent").html(result);
+
+
+
+            });
+
+        });
+
+        function ShowSweetErrorAlert() {
+            Swal.fire({
+                type: 'error',
+                title: 'خطایی رخ داده است !!!',
+                text: 'لطفا تا برطرف شدن خطا شکیبا باشید.',
+                confirmButtonText: 'بستن'
+            });
+        }
+
+        function ShowLoading() {
+            $("body").preloader({ text: 'لطفا صبر کنید ...' });
+        }
+
+        function ShowSweetSuccessAlert(message) {
+
+            Snackbar.show({
+                text: message,
+                actionText: 'بستن',
+                actionTextColor: '#e2a03f',
+                pos: 'top-right'
+            });
+
+        }
+        function ShowSweetAlert(message) {
+
+            Snackbar.show({
+                text: message,
+                pos: 'bottom-right'
+            });
+
+        }
+    });
+</script>
+
+
+

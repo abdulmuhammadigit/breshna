@@ -1,0 +1,42 @@
+E:\Project\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.ViewModels.deps.json
+E:\Project\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.ViewModels.dll
+E:\Project\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.ViewModels.pdb
+E:\Project\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Common.dll
+E:\Project\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Entities.dll
+E:\Project\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Common.pdb
+E:\Project\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Entities.pdb
+E:\Project\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.csprojAssemblyReference.cache
+E:\Project\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.AssemblyInfoInputs.cache
+E:\Project\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.AssemblyInfo.cs
+E:\Project\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.csproj.CoreCompileInputs.cache
+E:\Project\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.csproj.CopyComplete
+E:\Project\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.dll
+E:\Project\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.pdb
+E:\brashna\pro\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.ViewModels.deps.json
+E:\brashna\pro\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.ViewModels.dll
+E:\brashna\pro\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.ViewModels.pdb
+E:\brashna\pro\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Common.dll
+E:\brashna\pro\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Entities.dll
+E:\brashna\pro\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Common.pdb
+E:\brashna\pro\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Entities.pdb
+E:\brashna\pro\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.csprojAssemblyReference.cache
+E:\brashna\pro\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.AssemblyInfoInputs.cache
+E:\brashna\pro\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.AssemblyInfo.cs
+E:\brashna\pro\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.csproj.CoreCompileInputs.cache
+E:\brashna\pro\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.csproj.CopyComplete
+E:\brashna\pro\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.dll
+E:\brashna\pro\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.pdb
+D:\ASP.NET CORE\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.ViewModels.deps.json
+D:\ASP.NET CORE\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.ViewModels.dll
+D:\ASP.NET CORE\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.ViewModels.pdb
+D:\ASP.NET CORE\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Common.dll
+D:\ASP.NET CORE\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Entities.dll
+D:\ASP.NET CORE\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Common.pdb
+D:\ASP.NET CORE\Pro\Pro.ViewModels\bin\Debug\netcoreapp3.1\Pro.Entities.pdb
+D:\ASP.NET CORE\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.csprojAssemblyReference.cache
+D:\ASP.NET CORE\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.AssemblyInfoInputs.cache
+D:\ASP.NET CORE\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.AssemblyInfo.cs
+D:\ASP.NET CORE\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.csproj.CoreCompileInputs.cache
+D:\ASP.NET CORE\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.csproj.CopyComplete
+D:\ASP.NET CORE\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.dll
+D:\ASP.NET CORE\Pro\Pro.ViewModels\obj\Debug\netcoreapp3.1\Pro.ViewModels.pdb

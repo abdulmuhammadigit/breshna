@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Pro.Services</id>
+    <version>1.0.0</version>
+    <authors>Pro.Services</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Pro.Common" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Pro.DataAccess" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Pro.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Pro.ViewModels" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="AutoMapper.Extensions.Microsoft.DependencyInjection" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Hosting.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Linq.Dynamic.Core" version="1.2.9" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\brashna\pro\Pro\Pro.Services\bin\Release\netcoreapp3.1\Pro.Services.dll" target="lib\netcoreapp3.1\Pro.Services.dll" />
+  </files>
+</package>

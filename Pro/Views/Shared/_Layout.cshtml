@@ -1,0 +1,223 @@
+﻿@using Pro.Services.Contracts
+@using Pro.Common
+@inject IApplicationUserManager userManager
+@using Pro.ViewModels.Settings
+@inject IWritableOptions<SiteSettings> writableLocations
+@{
+    var user = await userManager.GetUserAsync(User);
+}
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="rtl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="@writableLocations.Value.SiteInfo.Description">
+    <meta name="keywords" content="@writableLocations.Value.SiteInfo.Description">
+    <meta name="author" content="Sadeq Mozaffari 0794954086">
+    <title>@ViewBag.title</title>
+    <link rel="apple-touch-icon" href="/assets/img/@writableLocations.Value.SiteInfo.Favicon">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/@writableLocations.Value.SiteInfo.Favicon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700" rel="stylesheet">
+
+    <link href="~/assets/css/argon.css" rel="stylesheet" />
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/vendors-rtl.min.css">
+
+    <!-- END: Vendor CSS-->
+    <link href="~/app-assets/fonts/feather/style.min.css" rel="stylesheet" />
+    <link href="~/assets/css/argon.css" rel="stylesheet" />
+    <script src="~/assets/libs/jquery-3.1.1.min.js"></script>
+
+    <link href="~/assets/css/forms/switches.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/tables/datatable/datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/tables/extensions/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/vendors/css/tables/datatable/buttons.bootstrap4.min.css">
+    <!-- BEGIN: Theme CSS-->
+    <link href="~/assets/tables/table-basic.css" rel="stylesheet" />
+    <link href="~/plugins/snackbar/snackbar.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/bootstrap-extended.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/colors.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/components.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/custom-rtl.min.css">
+    <!-- END: Theme CSS-->
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/core/menu/menu-types/vertical-menu-modern.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/core/colors/palette-gradient.min.css">
+    <link rel="stylesheet" type="text/css" href="~/app-assets/fonts/simple-line-icons/style.min.css">
+    <!-- END: Page CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style-rtl.css">
+    <!-- END: Custom CSS-->
+    <link href="~/assets/lib/Loading/css/preloader.css" rel="stylesheet" />
+
+
+
+    <!-- Sweetalert2 -->
+    <link href="~/CacheFiles/lib/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet" asp-append-version="true" />
+    <script src="~/CacheFiles/lib/sweetalert2/dist/sweetalert2.min.js" asp-append-version="true"></script>
+
+    <script src="~/plugins/snackbar/snackbar.min.js"></script>
+    <script src="~/assets/lib/Loading/js/jquery.preloader.min.js"></script>
+    <link href="~/assets/css/components/custom-modal.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/app-assets/css-rtl/pages/invoice.min.css">
+    <link href="~/DateTimePicker/jquery.md.bootstrap.datetimepicker.style.css" rel="stylesheet" />
+
+    <!-- BEGIN: Page JS-->
+
+    <style>
+        body .content .content-wrapper {
+            padding: 0rem 1rem 0 !important;
+        }
+
+        .btn-light {
+            background-color: #1e9ff2 !important;
+        }
+
+        .preloader-text {
+            right: 49% !important;
+            left: auto !important;
+        }
+
+        * {
+            font-family: "Vazir";
+        }
+    </style>
+</head>
+<!-- END: Head-->
+<!-- BEGIN: Body-->
+<body class="vertical-layout vertical-menu-modern vertical-expanded-menu 2-columns fixed-navbar pace-done menu-expanded" data-open="click" data-menu="vertical-menu-modern" data-col="2-columns">
+    <div id="modal-placeholder"></div>
+    <!-- BEGIN: Header-->
+    @await Html.PartialAsync("_Header")
+    <!-- END: Header-->
+    <!-- BEGIN: Main Menu-->
+    @await Html.PartialAsync("_Menu")
+    <!-- END: Main Menu-->
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="content-wrapper">
+            @*<div class="content-header row">
+                </div>*@
+            <div class="content-body">
+                <div class="content-header row mt-2">
+
+                </div>
+                @RenderBody()
+            </div>
+
+
+        </div>
+    </div>
+    <!-- END: Content-->
+    <!-- BEGIN: Customizer-->
+    @await Html.PartialAsync("_PanelSetting")
+    <!-- End: Customizer-->
+    <!-- Buynow Button-->
+    @*<div class="buy-now">
+            <a href="https://1.envato.market/modern_admin" target="_blank" class="btn btn-info btn-glow round px-2">Buy Now</a>
+
+        </div>*@
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light navbar-border navbar-shadow">
+        <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-block d-md-inline-block">حقوقو کاپی محفوظ است &copy; @DateTime.Now.Year </span><span class="float-md-right d-none d-lg-block"><i class="ft-heart pink"></i><span id="scroll-top"></span></span></p>
+    </footer>
+
+
+    <!-- END: Footer-->
+    <!-- BEGIN: Vendor JS-->
+    <script src="~/app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <script src="~/app-assets/vendors/js/tables/datatable/datatables.min.js"></script>
+
+
+    <script src="~/app-assets/vendors/js/tables/datatable/dataTables.buttons.min.js"></script>
+    <script src="~/app-assets/vendors/js/tables/datatable/buttons.bootstrap4.min.js"></script>
+    <script src="~/app-assets/vendors/js/tables/jszip.min.js"></script>
+    <script src="~/app-assets/vendors/js/tables/pdfmake.min.js"></script>
+    <script src="~/app-assets/vendors/js/tables/vfs_fonts.js"></script>
+
+
+    <script src="~/app-assets/vendors/js/tables/buttons.html5.min.js"></script>
+    @*<script src="~/app-assets/vendors/js/tables/buttons.print.min.js"></script>*@
+    <script src="~/app-assets/vendors/js/tables/buttons.colVis.min.js"></script>
+
+    <!-- BEGIN: Theme JS-->
+
+    <script src="~/app-assets/js/core/app-menu.min.js"></script>
+    <script src="~/app-assets/js/core/app.min.js"></script>
+    <script src="~/app-assets/js/scripts/customizer.min.js"></script>
+    <script src="~/app-assets/js/scripts/footer.min.js"></script>
+    <!-- END: Theme JS-->
+    <!-- BEGIN: Page JS-->
+
+    <script src="~/app-assets/js/scripts/tables/datatables-extensions/datatable-button/datatable-html5.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            var url = window.location;
+            var element = $('#sidebar .menu-item').filter(function () {
+
+
+                return this.href == url || url.href.indexOf(this.href) == 0;
+
+            }).parent().addClass('active');
+            if (element.is('li')) {
+
+                element.parent().parent().addClass('open');
+
+            }
+
+            $('form').on('keyup keypress', function (e) {
+                var keyCode = e.keyCode || e.which;
+                if (keyCode === 13) {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+
+        });
+    </script>
+
+    <!-- END: Page JS-->
+
+    <script src="~/assets/lib/Loading/js/jquery.preloader.min.js"></script>
+    <script src="~/app-assets/js/scripts/pages/invoice-template.min.js"></script>
+    <script src="~/DateTimePicker/jquery.md.bootstrap.datetimepicker.js"></script>
+
+    <script type="text/javascript">
+        $('#date5').MdPersianDateTimePicker({
+            targetTextSelector: '#inputDate5',
+            toDate: true,
+            groupId: 'rangeSelector1',
+            placement: 'top',
+            enableTimePicker: true,
+            dateFormat: 'yyyy-MM-dd',
+            textFormat: 'yyyy-MM-dd',
+        });
+    </script>
+    <script>
+        $('#date6').MdPersianDateTimePicker({
+            targetTextSelector: '#inputDate6',
+            toDate: true,
+            groupId: 'rangeSelector1',
+            placement: 'top',
+            enableTimePicker: true,
+            dateFormat: 'yyyy-MM-dd',
+            textFormat: 'yyyy-MM-dd',
+        });
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

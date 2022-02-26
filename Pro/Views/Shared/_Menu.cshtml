@@ -1,0 +1,87 @@
+﻿@using Pro.Common;
+@addTagHelper*,Pro
+<div class="main-menu menu-fixed menu-dark menu-accordion menu-shadow" data-scroll-to-active="true" id="sidebar">
+    <div class="main-menu-content">
+        <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+
+
+            <li>
+
+                <a class="menu-item" asp-area="" asp-controller="Home" asp-action="Dashboard"><i class="la la-home"></i><span data-i18n="">داشبورد</span></a>
+            </li>
+
+            <security-trimming asp-area="" asp-controller="Rent" asp-action="Create">
+                <li class="nav-item">
+                    <a class="menu-item" asp-area="" asp-controller="Rent" asp-action="Create"><i class="la la-user-plus"></i><span data-i18n=" ">ثبت فورم کرایه نشین </span></a>
+                </li>
+            </security-trimming>
+
+
+
+
+            <security-trimming asp-area="" asp-controller="Owner" asp-action="Create">
+                <li class="nav-item">
+                    <a class="menu-item" asp-area="" asp-controller="Owner" asp-action="Create"><i class="la la-user-plus"></i><span data-i18n=" ">ثبت فورم صاحب خانه</span></a>
+                </li>
+            </security-trimming>
+
+
+        
+
+
+                    <li class=" nav-item">
+
+                        <a><i class="la la-list-alt"></i><span class="menu-title" data-i18n="Dashboard">راپورها</span></a>
+                        <ul class="menu-content">
+
+                            <security-trimming asp-area="" asp-controller="Owner" asp-action="List">
+                                <li class="nav-item">
+                                    <a class="menu-item" asp-area="" asp-controller="Owner" asp-action="List"><i class="la la-th-list"></i><span data-i18n=" ">فورم های ثبت شده صاحب خانه</span></a>
+                                </li>
+                            </security-trimming>
+                            <security-trimming asp-area="" asp-controller="Rent" asp-action="List">
+                                <li class="nav-item">
+                                    <a class="menu-item" asp-area="" asp-controller="Rent" asp-action="List"><i class="la la-th-list"></i><span data-i18n=" ">فورم های ثبت شده کرایه نشین </span></a>
+                                </li>
+                            </security-trimming>
+
+                            <security-trimming asp-area="" asp-controller="Report" asp-action="UserRecord">
+                                <li>
+                                    <a asp-area="" asp-controller="Report" asp-action="UserRecord" class="menu-item">
+                                        <i class=""> </i><span class="menu-title" data-i18n=""> راپور کاربران</span>
+                                    </a>
+                                </li>
+                            </security-trimming>
+
+                            @*<security-trimming asp-area="" asp-controller="Report" asp-action="Rent">
+                                <li>
+                                    <a asp-area="" asp-controller="Report" asp-action="Rent" class="menu-item">
+                                        <i class=""> </i><span class="menu-title" data-i18n="">  مستاجر نشینان/کرایه نشینان</span>
+                                    </a>
+                                </li>
+                            </security-trimming>*@
+                            <security-trimming asp-area="" asp-controller="Report" asp-action="Owner">
+                                <li>
+                                    <a asp-area="" asp-controller="Report" asp-action="Owner" class="menu-item">
+                                        <i class=""> </i><span class="menu-title" data-i18n=""> مالکان</span>
+                                    </a>
+                                </li>
+                            </security-trimming>
+
+
+                        </ul>
+
+
+                    </li>
+         
+
+
+            <security-trimming asp-area="Admin" asp-controller="UserManager" asp-action="Index">
+                <li class="nav-item">
+                    <a class="menu-item" asp-area="Admin" asp-controller="UserManager" asp-action="Index"><i class="fa fa-users-cog"></i><span data-i18n=" ">کاربران</span></a>
+                </li>
+            </security-trimming>
+
+        </ul>
+    </div>
+</div>
